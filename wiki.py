@@ -31,6 +31,7 @@ def get_next_link(link):
                     content.find_all(class_='floatright') + 
                     content.find_all(class_='toc') + 
                     content.find_all(class_='mw-editsection') + 
+                    content.find_all(id='coordinates') + 
                     content.find_all('table', class_='vcard')):
         sidebox.decompose()
     for citation in content.find_all('sup'):
@@ -61,7 +62,7 @@ for tr in top_table.find_all('tr'):
             if not tr.find_all('td')[0].get_text() == '':
                 top_pages.append(tr.find('a'))
 
-bracketmatch = re.compile('\(([^\<\(\)]*\<[^\>]*\>)*\<a[^\(\)]*\/a\>([^\<\(\)]*\<[^\>]*\>)*[^\(\)]*\)')
+bracketmatch = re.compile('\(([^()]|\([^\)]*\))*\<a([^()]|\([^\)]*\))*\)')
 for page in top_pages:
     stack = []
     n = page.get('href')
