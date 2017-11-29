@@ -62,7 +62,6 @@ for tr in top_table.find_all('tr'):
                 top_pages.append(tr.find('a'))
 
 bracketmatch = re.compile('\(([^\<\(\)]*\<[^\>]*\>)*\<a[^\(\)]*\/a\>([^\<\(\)]*\<[^\>]*\>)*[^\(\)]*\)')
-# top_pages = [bs4.BeautifulSoup('<a href="/wiki/Modern_Greek" title="test"></a>', 'html.parser').find('a')]
 for page in top_pages:
     stack = []
     n = page.get('href')
