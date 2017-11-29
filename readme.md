@@ -37,7 +37,7 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	-                              found: 18 steps
 	Wiki                           found: 22 steps
 	Facebook                       loop! (/wiki/Accounting)
-	YouTube                        broken link!(https://pinterest.com/pin/765682374120145462/?source_app=android)
+	YouTube                        broken link! (https://pinterest.com/pin/765682374120145462/?source_app=android)
 	404.php                        found: 20 steps
 	United States                  found: 17 steps
 	Google                         found: 12 steps
@@ -54,7 +54,7 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	Eminem                         found: 10 steps
 	The Beatles                    found: 10 steps
 	Adolf Hitler                   found: 15 steps
-	Justin Bieber                  broken link!(https://pinterest.com/pin/765682374120145462/?source_app=android)
+	Justin Bieber                  broken link! (https://pinterest.com/pin/765682374120145462/?source_app=android)
 	World War I                    found: 9 steps
 	The Big Bang Theory            found: 17 steps
 	Steve Jobs                     found: 8 steps
@@ -68,10 +68,10 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	Cristiano Ronaldo              found: 17 steps
 	XHamster                       found: 10 steps
 	Miley Cyrus                    found: 33 steps
-	Elizabeth II                   broken link!(https://en.wiktionary.org/wiki/Special:Search/potent)
+	Elizabeth II                   broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
 	List of Presidents of the United States found: 11 steps
 	Harry Potter                   found: 19 steps
-	Rihanna                        broken link!(https://en.wiktionary.org/wiki/polynym)
+	Rihanna                        broken link! (https://en.wiktionary.org/wiki/polynym)
 	Japan                          found: 17 steps
 	Selena Gomez                   found: 34 steps
 	Glee (TV series)               found: 24 steps
@@ -120,7 +120,7 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	List of The Big Bang Theory episodes found: 18 steps
 	Vagina                         found: 17 steps
 	Jay-Z                          found: 14 steps
-	Bill Gates                     broken link!(https://en.wiktionary.org/wiki/Special:Search/potent)
+	Bill Gates                     broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
 	Arnold Schwarzenegger          found: 15 steps
 	Will Smith                     found: 11 steps
 	September 11 attacks           found: 10 steps

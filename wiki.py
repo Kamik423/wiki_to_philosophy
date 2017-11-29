@@ -1,5 +1,9 @@
 #! /usr/bin/env python3
 
+# Created by Hans Schülein (Kamik423 contact.kamik423@gmail.com)
+# 2017-11-29
+# inspired by @davelevitan https://twitter.com/davelevitan/status/935619980594466816
+
 import bs4
 import requests
 import re
@@ -57,7 +61,8 @@ for tr in top_table.find_all('tr'):
             if not tr.find_all('td')[0].get_text() == '':
                 top_pages.append(tr.find('a'))
 
-bracketmatch = re.compile('\([^()]*<a[^()]*\)')
+bracketmatch = re.compile('\(([^\<\(\)]*\<[^\>]*\>)*\<a[^\(\)]*\/a\>([^\<\(\)]*\<[^\>]*\>)*[^\(\)]*\)')
+# top_pages = [bs4.BeautifulSoup('<a href="/wiki/Modern_Greek" title="test"></a>', 'html.parser').find('a')]
 for page in top_pages:
     stack = []
     n = page.get('href')
@@ -84,6 +89,8 @@ for page in top_pages:
             print('broken link!', end = ' ')
             if not debug:
                 print('(' + n + ')')
+            else:
+                print()
             running = False
     if n.lower() == '/wiki/philosophy':
         print('found:', len(stack), 'steps')
