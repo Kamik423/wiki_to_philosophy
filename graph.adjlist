@@ -1,5 +1,5 @@
-#./wiki.py -gs
-# GMT Thu Nov 30 14:26:03 2017
+#./wiki.py -gsvt
+# GMT Thu Nov 30 19:26:10 2017
 # 
 - Character_(computing)
 Character_(computing) Computer
@@ -161,8 +161,8 @@ Steve_Jobs Entrepreneurship
 Entrepreneurship Business
 Canada North_America
 North_America Continent
-Continent Land#Land_mass
-Land#Land_mass Earth
+Continent Land
+Land Earth
 Earth Planet
 Planet Astronomical_body
 Astronomical_body Physical_body
@@ -191,7 +191,7 @@ Fashion Clothing
 Clothing Fibre
 Australia Australia_(continent)
 Australia_(continent) Australian_mainland
-Australian_mainland Land#Land_mass
+Australian_mainland Land
 Cristiano_Ronaldo Order_of_Prince_Henry
 Order_of_Prince_Henry Portugal
 Portugal Sovereign_state
@@ -280,8 +280,8 @@ Scientific_method Scientific_technique
 Scientific_technique Systematic_process
 Systematic_process Critical_thinking
 Critical_thinking Objectivity_(philosophy)
-Breaking_Bad Western_(genre)#Contemporary_Western
-Western_(genre)#Contemporary_Western Genre
+Breaking_Bad Western_(genre)
+Western_(genre) Genre
 Johnny_Depp Golden_Globe_Award
 Golden_Globe_Award Hollywood_Foreign_Press_Association
 Hollywood_Foreign_Press_Association Organization
@@ -433,10 +433,9 @@ Sense Physiological
 Physiological Mechanism_(biology)
 Mechanism_(biology) Science
 David_Bowie Popular_music
-England Countries_of_the_United_Kingdom
-Countries_of_the_United_Kingdom United_Kingdom
-Singapore City-state#Sovereign_city-states
-City-state#Sovereign_city-states Sovereign
+England Country
+Singapore City-state
+City-state Sovereign
 Sovereign Substantive
 Substantive Word
 Israel Middle_East

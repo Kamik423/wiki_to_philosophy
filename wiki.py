@@ -24,6 +24,12 @@ known = []
 next_node = {}
 
 
+def name(page):
+    """Gets the title of the page from any link
+    """
+    return page.split('/')[-1].split('#')[0]
+
+
 def rel_link(page):
     """relative link for webpage: format /wiki/pagename
     """
@@ -72,6 +78,7 @@ def get_next_link(link):
     if verbose:
         print('   ', link.get_text().ljust(70), link.get('href'))
     return link.get('href')
+
 
 # argparse
 parser = argparse.ArgumentParser()
@@ -130,8 +137,10 @@ G = None
 
 if load and use_nx:
     # load from file
+    G = nx.DiGraph()
     fh = open("graph.adjlist",'rb')
-    G = nx.read_adjlist(fh)
+    nx.read_adjlist(fh, create_using=G)
+    # G = nx.read_adjlist(fh) # undirected version. Might have to be reinstated, since undocumented function.
     print('loaded file')
 else:
     # use WikipediA as data source
@@ -181,7 +190,7 @@ else:
 
         # initiate
         previous_page = None
-        current_page = page.get('href').split('/')[-1]
+        current_page = name(page.get('href'))
         # iterative search
         while current_page not in known:
             page_stack.append(current_page)
@@ -193,7 +202,7 @@ else:
                     G.add_edge(previous_page, current_page)
             next_node[previous_page] = current_page
             previous_page = current_page
-            current_page = get_next_link(rel_link(current_page)).split('/')[-1]
+            current_page = name(get_next_link(rel_link(current_page)))
         # finish page
         next_node[previous_page] = current_page
         if use_nx and not previous_page == None:
