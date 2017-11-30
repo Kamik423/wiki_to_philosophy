@@ -35,11 +35,19 @@ I cannot categorically delete all parentheses from the code. It will damage link
 
 I decided to go past philosophy and see what is next. If I stop when reaching philosophy there are two big trees. The other one ends in knowledge. Going past philosophy finally merges those.
 
-## Todo
+## Command line Options
 
-Remove redundant code from 3 separate files.
-
-Ignore external links.
+	usage: wiki.py [-h] [-g] [-l] [-n] [-r ROOT] [-s] [-t] [-v]
+	
+	optional arguments:
+	  -h, --help            show this help message and exit
+	  -g, --graph           creates graphs
+	  -l, --load            use graph.adjlist as source not web
+	  -n, --no-nx           do not use networkx (disables -g -l -s)
+	  -r ROOT, --root ROOT  search just specified page[s], separated by ","
+	  -s, --save            saves adjacency list
+	  -t, --time            displays the time per online step
+	  -v, --verbose         print entire path
 
 ## Acknowledgement
 
@@ -47,120 +55,121 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for bringing me this exce
 
 ## Sample output
 
-### Simple (`wiki.py` with `debug = False`)
+### Simple (`./wiki.py -gs`)
 
-	-                              found: 18 steps
-	Wiki                           found: 22 steps
-	Facebook                       loop! (/wiki/Accounting)
-	YouTube                        found: 10 steps
-	404.php                        found: 20 steps
-	United States                  found: 10 steps
-	Google                         loop! (/wiki/Knowledge)
-	Donald Trump                   found: 12 steps
-	Wikipedia                      found: 22 steps
-	Barack Obama                   found: 12 steps
-	India                          loop! (/wiki/Cardinal_direction)
-	World War II                   found: 9 steps
-	Michael Jackson                found: 19 steps
-	Malware                        found: 21 steps
-	Sex                            loop! (/wiki/Knowledge)
-	United Kingdom                 found: 9 steps
-	Lady Gaga                      loop! (/wiki/Knowledge)
-	Eminem                         found: 10 steps
-	The Beatles                    found: 10 steps
-	Adolf Hitler                   found: 10 steps
-	Justin Bieber                  found: 11 steps
-	World War I                    found: 9 steps
-	The Big Bang Theory            loop! (/wiki/Knowledge)
-	Steve Jobs                     found: 8 steps
-	Canada                         loop! (/wiki/Knowledge)
-	Game of Thrones                loop! (/wiki/Knowledge)
-	How I Met Your Mother          loop! (/wiki/Knowledge)
-	Academy Awards                 loop! (/wiki/Knowledge)
-	Lil Wayne                      found: 17 steps
-	Kim Kardashian                 found: 19 steps
-	Australia                      loop! (/wiki/Knowledge)
-	Cristiano Ronaldo              found: 11 steps
-	XHamster                       loop! (/wiki/Knowledge)
-	Miley Cyrus                    loop! (/wiki/Knowledge)
-	Elizabeth II                   broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
-	List of Presidents of the United States found: 11 steps
-	Harry Potter                   found: 19 steps
-	Rihanna                        broken link! (https://en.wiktionary.org/wiki/polynym)
-	Japan                          found: 9 steps
-	Selena Gomez                   loop! (/wiki/Knowledge)
-	Glee (TV series)               found: 24 steps
-	Germany                        found: 9 steps
-	The Walking Dead (TV series)   loop! (/wiki/Knowledge)
-	Abraham Lincoln                found: 12 steps
-	Taylor Swift                   found: 16 steps
-	Star Wars                      loop! (/wiki/Knowledge)
-	Indigenous australian          found: 10 steps
-	China                          found: 8 steps
-	Lionel Messi                   found: 12 steps
-	Breaking Bad                   loop! (/wiki/Knowledge)
-	Johnny Depp                    found: 8 steps
-	New York City                  loop! (/wiki/Knowledge)
-	Tupac Shakur                   found: 15 steps
-	Web scraping                   found: 20 steps
-	France                         found: 8 steps
-	Kanye West                     loop! (/wiki/Knowledge)
-	Russia                         found: 16 steps
-	Stephen Hawking                loop! (/wiki/Knowledge)
-	Albert Einstein                loop! (/wiki/Knowledge)
-	Earth                          loop! (/wiki/Knowledge)
-	Angelina Jolie                 loop! (/wiki/Knowledge)
-	Mark Zuckerberg                loop! (/wiki/Accounting)
-	Internet Movie Database        found: 20 steps
-	Leonardo DiCaprio              loop! (/wiki/Knowledge)
-	Nicki Minaj                    found: 13 steps
-	William Shakespeare            found: 12 steps
-	Michael Jordan                 found: 11 steps
-	Dwayne Johnson                 found: 14 steps
-	Katy Perry                     found: 8 steps
-	Illuminati                     found: 9 steps
-	Doctor Who                     found: 13 steps
-	Mila Kunis                     found: 9 steps
-	Vietnam War                    loop! (/wiki/Knowledge)
-	John F. Kennedy                found: 12 steps
-	Adele                          loop! (/wiki/Knowledge)
-	Sexual intercourse             loop! (/wiki/Knowledge)
-	Human penis size               loop! (/wiki/Knowledge)
-	One Direction                  found: 8 steps
-	Favicon.ico                    found: 15 steps
-	Global warming                 loop! (/wiki/Knowledge)
-	London                         found: 15 steps
-	John Cena                      loop! (/wiki/Knowledge)
-	Muhammad Ali                   found: 15 steps
-	List of The Big Bang Theory episodes loop! (/wiki/Knowledge)
-	Vagina                         found: 17 steps
-	Jay-Z                          found: 14 steps
-	Bill Gates                     broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
-	Arnold Schwarzenegger          found: 14 steps
-	Will Smith                     found: 11 steps
-	September 11 attacks           found: 10 steps
-	Halloween                      loop! (/wiki/Halloween)
-	Prince (musician)              loop! (/wiki/Knowledge)
-	David Bowie                    found: 9 steps
-	England                        found: 11 steps
-	Singapore                      found: 14 steps
-	Pornography                    loop! (/wiki/Knowledge)
-	Israel                         loop! (/wiki/Knowledge)
-	Bruce Lee                      found: 12 steps
-	Java                           loop! (/wiki/Knowledge)
-	Marilyn Monroe                 loop! (/wiki/Knowledge)
-	Britney Spears                 found: 14 steps
-	Grey's Anatomy                 loop! (/wiki/Management)
-	Tom Cruise                     loop! (/wiki/Knowledge)
-	Brazil                         loop! (/wiki/Knowledge)
-	LeBron James                   found: 11 steps
-	RMS Titanic                    loop! (/wiki/Knowledge)
-	Amazon.com                     found: 15 steps
-	Naruto                         found: 11 steps
-	Masturbation                   loop! (/wiki/Knowledge)
-	AMGTV                          found: 18 steps
-	English language               found: 13 steps
-	Lost (TV series)               loop! (/wiki/Knowledge)
-	American Civil War             found: 11 steps
-	Henry VIII of England          found: 11 steps
-	Scarlett Johansson             found: 9 steps
+
+	-                                                 Hit loop after 23 steps 
+	Wiki                                              Hit tree after 09 steps - 18 further steps to loop; 27 in total
+	Facebook                                          Hit loop after 06 steps 
+	YouTube                                           Hit tree after 10 steps - 05 further steps to loop; 15 in total
+	404.php                                           Hit tree after 07 steps - 18 further steps to loop; 25 in total
+	United States                                     Hit tree after 07 steps - 08 further steps to loop; 15 in total
+	Google                                            Hit tree after 09 steps - 02 further steps to loop; 11 in total
+	Donald Trump                                      Hit tree after 06 steps - 11 further steps to loop; 17 in total
+	Wikipedia                                         Hit tree after 13 steps - 14 further steps to loop; 27 in total
+	Barack Obama                                      Hit tree after 01 steps - 16 further steps to loop; 17 in total
+	India                                             Hit loop after 05 steps 
+	World War II                                      Hit tree after 03 steps - 11 further steps to loop; 14 in total
+	Michael Jackson                                   Hit tree after 12 steps - 12 further steps to loop; 24 in total
+	Malware                                           Hit tree after 05 steps - 21 further steps to loop; 26 in total
+	Sex                                               Hit tree after 05 steps - 02 further steps to loop; 07 in total
+	United Kingdom                                    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+	Lady Gaga                                         Hit tree after 09 steps - 03 further steps to loop; 12 in total
+	Eminem                                            Hit tree after 08 steps - 07 further steps to loop; 15 in total
+	The Beatles                                       Hit tree after 02 steps - 13 further steps to loop; 15 in total
+	Adolf Hitler                                      Hit tree after 07 steps - 08 further steps to loop; 15 in total
+	Justin Bieber                                     Hit tree after 01 steps - 15 further steps to loop; 16 in total
+	World War I                                       Hit tree after 01 steps - 13 further steps to loop; 14 in total
+	The Big Bang Theory                               Hit tree after 06 steps - 04 further steps to loop; 10 in total
+	Steve Jobs                                        Hit tree after 02 steps - 11 further steps to loop; 13 in total
+	Canada                                            Hit tree after 09 steps - 04 further steps to loop; 13 in total
+	Game of Thrones                                   Hit tree after 02 steps - 08 further steps to loop; 10 in total
+	How I Met Your Mother                             Hit tree after 01 steps - 09 further steps to loop; 10 in total
+	Academy Awards                                    Hit tree after 06 steps - 05 further steps to loop; 11 in total
+	Lil Wayne                                         Hit tree after 08 steps - 14 further steps to loop; 22 in total
+	Kim Kardashian                                    Hit tree after 04 steps - 20 further steps to loop; 24 in total
+	Australia                                         Hit tree after 03 steps - 10 further steps to loop; 13 in total
+	Cristiano Ronaldo                                 Hit tree after 03 steps - 13 further steps to loop; 16 in total
+	XHamster                                          Hit tree after 05 steps - 04 further steps to loop; 09 in total
+	Miley Cyrus                                       Hit tree after 15 steps - 05 further steps to loop; 20 in total
+	Elizabeth II                                      Hit tree after 07 steps - 11 further steps to loop; 18 in total
+	List of Presidents of the United States           Hit tree after 00 steps - 16 further steps to loop; 16 in total
+	Harry Potter                                      Hit tree after 06 steps - 18 further steps to loop; 24 in total
+	Rihanna                                           Hit tree after 08 steps - 05 further steps to loop; 13 in total
+	Japan                                             Hit tree after 01 steps - 13 further steps to loop; 14 in total
+	Selena Gomez                                      Hit tree after 05 steps - 16 further steps to loop; 21 in total
+	Glee (TV series)                                  Hit tree after 08 steps - 21 further steps to loop; 29 in total
+	Germany                                           Hit tree after 01 steps - 13 further steps to loop; 14 in total
+	The Walking Dead (TV series)                      Hit tree after 03 steps - 08 further steps to loop; 11 in total
+	Abraham Lincoln                                   Hit tree after 01 steps - 16 further steps to loop; 17 in total
+	Taylor Swift                                      Hit tree after 07 steps - 13 further steps to loop; 20 in total
+	Star Wars                                         Hit tree after 02 steps - 08 further steps to loop; 10 in total
+	Indigenous australian                             Hit tree after 03 steps - 12 further steps to loop; 15 in total
+	China                                             Hit tree after 02 steps - 11 further steps to loop; 13 in total
+	Lionel Messi                                      Hit tree after 11 steps - 06 further steps to loop; 17 in total
+	Breaking Bad                                      Hit tree after 02 steps - 08 further steps to loop; 10 in total
+	Johnny Depp                                       Hit tree after 03 steps - 10 further steps to loop; 13 in total
+	New York City                                     Hit tree after 10 steps - 04 further steps to loop; 14 in total
+	Tupac Shakur                                      Hit tree after 01 steps - 19 further steps to loop; 20 in total
+	Web scraping                                      Hit tree after 02 steps - 23 further steps to loop; 25 in total
+	France                                            Hit tree after 03 steps - 10 further steps to loop; 13 in total
+	Kanye West                                        Hit tree after 07 steps - 03 further steps to loop; 10 in total
+	Russia                                            Hit tree after 02 steps - 18 further steps to loop; 20 in total
+	Stephen Hawking                                   Hit tree after 05 steps - 07 further steps to loop; 12 in total
+	Albert Einstein                                   Hit tree after 02 steps - 05 further steps to loop; 07 in total
+	Earth                                             Hit tree after 00 steps - 09 further steps to loop; 09 in total
+	Angelina Jolie                                    Hit tree after 02 steps - 10 further steps to loop; 12 in total
+	Mark Zuckerberg                                   Hit tree after 01 steps - 06 further steps to loop; 07 in total
+	Internet Movie Database                           Hit tree after 05 steps - 20 further steps to loop; 25 in total
+	Leonardo DiCaprio                                 Hit tree after 02 steps - 15 further steps to loop; 17 in total
+	Nicki Minaj                                       Hit tree after 03 steps - 15 further steps to loop; 18 in total
+	William Shakespeare                               Hit tree after 05 steps - 12 further steps to loop; 17 in total
+	Michael Jordan                                    Hit tree after 02 steps - 14 further steps to loop; 16 in total
+	Dwayne Johnson                                    Hit tree after 05 steps - 14 further steps to loop; 19 in total
+	Katy Perry                                        Hit tree after 03 steps - 10 further steps to loop; 13 in total
+	Illuminati                                        Hit tree after 06 steps - 08 further steps to loop; 14 in total
+	Doctor Who                                        Hit tree after 06 steps - 12 further steps to loop; 18 in total
+	Mila Kunis                                        Hit tree after 03 steps - 11 further steps to loop; 14 in total
+	Vietnam War                                       Hit tree after 06 steps - 04 further steps to loop; 10 in total
+	John F. Kennedy                                   Hit tree after 01 steps - 16 further steps to loop; 17 in total
+	Adele                                             Hit tree after 04 steps - 09 further steps to loop; 13 in total
+	Sexual intercourse                                Hit tree after 06 steps - 05 further steps to loop; 11 in total
+	Human penis size                                  Hit tree after 03 steps - 06 further steps to loop; 09 in total
+	One Direction                                     Hit tree after 03 steps - 10 further steps to loop; 13 in total
+	Favicon.ico                                       Hit tree after 01 steps - 18 further steps to loop; 19 in total
+	Global warming                                    Hit tree after 01 steps - 09 further steps to loop; 10 in total
+	London                                            Hit tree after 01 steps - 18 further steps to loop; 19 in total
+	John Cena                                         Hit tree after 08 steps - 07 further steps to loop; 15 in total
+	Muhammad Ali                                      Hit tree after 04 steps - 16 further steps to loop; 20 in total
+	List of The Big Bang Theory episodes              Hit tree after 01 steps - 10 further steps to loop; 11 in total
+	Vagina                                            Hit tree after 03 steps - 18 further steps to loop; 21 in total
+	Jay-Z                                             Hit tree after 05 steps - 14 further steps to loop; 19 in total
+	Bill Gates                                        Hit tree after 04 steps - 16 further steps to loop; 20 in total
+	Arnold Schwarzenegger                             Hit tree after 03 steps - 16 further steps to loop; 19 in total
+	Will Smith                                        Hit tree after 06 steps - 10 further steps to loop; 16 in total
+	September 11 attacks                              Hit tree after 03 steps - 12 further steps to loop; 15 in total
+	Halloween                                         Hit loop after 02 steps 
+	Prince (musician)                                 Hit tree after 07 steps - 03 further steps to loop; 10 in total
+	David Bowie                                       Hit tree after 01 steps - 13 further steps to loop; 14 in total
+	England                                           Hit tree after 02 steps - 14 further steps to loop; 16 in total
+	Singapore                                         Hit tree after 04 steps - 15 further steps to loop; 19 in total
+	Pornography                                       Hit tree after 00 steps - 08 further steps to loop; 08 in total
+	Israel                                            Hit tree after 03 steps - 11 further steps to loop; 14 in total
+	Bruce Lee                                         Hit tree after 05 steps - 12 further steps to loop; 17 in total
+	Java                                              Hit tree after 02 steps - 11 further steps to loop; 13 in total
+	Marilyn Monroe                                    Hit tree after 04 steps - 03 further steps to loop; 07 in total
+	Britney Spears                                    Hit tree after 04 steps - 15 further steps to loop; 19 in total
+	Grey's Anatomy                                    Hit loop after 09 steps 
+	Tom Cruise                                        Hit tree after 01 steps - 11 further steps to loop; 12 in total
+	Brazil                                            Hit tree after 02 steps - 11 further steps to loop; 13 in total
+	LeBron James                                      Hit tree after 01 steps - 15 further steps to loop; 16 in total
+	RMS Titanic                                       Hit tree after 08 steps - 05 further steps to loop; 13 in total
+	Amazon.com                                        Hit tree after 02 steps - 18 further steps to loop; 20 in total
+	Naruto                                            Hit tree after 03 steps - 13 further steps to loop; 16 in total
+	Masturbation                                      Hit tree after 05 steps - 04 further steps to loop; 09 in total
+	AMGTV                                             Hit tree after 04 steps - 18 further steps to loop; 22 in total
+	English language                                  Hit tree after 05 steps - 13 further steps to loop; 18 in total
+	Lost (TV series)                                  Hit tree after 02 steps - 08 further steps to loop; 10 in total
+	American Civil War                                Hit tree after 01 steps - 15 further steps to loop; 16 in total
+	Henry VIII of England                             Hit tree after 03 steps - 13 further steps to loop; 16 in total
+	Scarlett Johansson                                Hit tree after 03 steps - 11 further steps to loop; 14 in total

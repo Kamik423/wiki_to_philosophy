@@ -1,4 +1,18 @@
--                              
+# Output from ./wiki.py -v
+
+searching Top 100:
+---------------
+networkx: True
+graph:    False
+save:     False
+time:     False
+verbose:  True
+---------------
+fetching Top 100 pages
+from https://en.wikipedia.org/wiki/Wikipedia:Multiyear_ranking_of_most_viewed_pages#Top-100_list
+done
+
+[  1/115] -
     character                                                              /wiki/Character_(computing)
     computer                                                               /wiki/Computer
     instructed                                                             /wiki/Computer_programming
@@ -17,8 +31,13 @@
     behavior                                                               /wiki/Behavior
     actions                                                                /wiki/Action_(philosophy)
     philosophy                                                             /wiki/Philosophy
-found: 18 steps
-Wiki                           
+    study                                                                  /wiki/Education
+    learning                                                               /wiki/Learning
+    knowledge                                                              /wiki/Knowledge
+    facts                                                                  /wiki/Fact
+    knowledge                                                              /wiki/Knowledge
+    Hit loop after 23 steps 
+[  2/115] Wiki
     website                                                                /wiki/Website
     web pages                                                              /wiki/Web_page
     World Wide Web                                                         /wiki/World_Wide_Web
@@ -28,29 +47,16 @@ Wiki
     data                                                                   /wiki/Data
     set                                                                    /wiki/Set_(mathematics)
     mathematics                                                            /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 22 steps
-Facebook                       
+    Hit tree after 09 steps - 18 further steps to loop; 27 in total
+[  3/115] Facebook
     for-profit corporation                                                 /wiki/For-profit_corporation
     private sector                                                         /wiki/Private_sector
     profit                                                                 /wiki/Profit_(accounting)
     accounting                                                             /wiki/Accounting
     economic entities                                                      /wiki/Economic_entity
     accounting                                                             /wiki/Accounting
-loop! 
-YouTube                        
+    Hit loop after 06 steps 
+[  4/115] YouTube
     video-sharing                                                          /wiki/Video_hosting_service
     end users                                                              /wiki/End_user
     product development                                                    /wiki/New_product_development
@@ -61,8 +67,8 @@ YouTube
     being                                                                  /wiki/Being
     objective                                                              /wiki/Objectivity_(philosophy)
     philosophical                                                          /wiki/Philosophy
-found: 10 steps
-404.php                        
+    Hit tree after 10 steps - 05 further steps to loop; 15 in total
+[  5/115] 404.php
     error message                                                          /wiki/Error_message
     computer                                                               /wiki/Computer_science
     computation                                                            /wiki/Computation
@@ -70,21 +76,8 @@ found: 10 steps
     Addition                                                               /wiki/Addition
     operations                                                             /wiki/Operation_(mathematics)
     mathematics                                                            /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 20 steps
-United States                  
+    Hit tree after 07 steps - 18 further steps to loop; 25 in total
+[  6/115] United States
     federal republic                                                       /wiki/Federal_republic
     federation                                                             /wiki/Federation
     union                                                                  /wiki/Political_union
@@ -92,11 +85,8 @@ United States
     political entity                                                       /wiki/Polity
     identity                                                               /wiki/Identity_(social_science)
     psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-Google                         
+    Hit tree after 07 steps - 08 further steps to loop; 15 in total
+[  7/115] Google
     multinational                                                          /wiki/Multinational_corporation
     corporate                                                              /wiki/Corporation
     company                                                                /wiki/Company
@@ -106,24 +96,16 @@ Google
     social science                                                         /wiki/Social_science
     academic disciplines                                                   /wiki/Discipline_(academia)
     knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Donald Trump                   
+    Hit tree after 09 steps - 02 further steps to loop; 11 in total
+[  8/115] Donald Trump
     45th                                                                   /wiki/List_of_Presidents_of_the_United_States
     President of the United States                                         /wiki/President_of_the_United_States
     head of state                                                          /wiki/Head_of_state
     sovereign state                                                        /wiki/Sovereign_state
     international law                                                      /wiki/International_law
     states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-Wikipedia                      
+    Hit tree after 06 steps - 11 further steps to loop; 17 in total
+[  9/115] Wikipedia
     online encyclopedia                                                    /wiki/Online_encyclopedia
     encyclopedia                                                           /wiki/Encyclopedia
     reference work                                                         /wiki/Reference_work
@@ -137,49 +119,23 @@ Wikipedia
     letters                                                                /wiki/Letter_(alphabet)
     grapheme                                                               /wiki/Grapheme
     linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 22 steps
-Barack Obama                   
+    Hit tree after 13 steps - 14 further steps to loop; 27 in total
+[ 10/115] Barack Obama
     44th President of the United States                                    /wiki/List_of_Presidents_of_the_United_States
-    President of the United States                                         /wiki/President_of_the_United_States
-    head of state                                                          /wiki/Head_of_state
-    sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-India                          
+    Hit tree after 01 steps - 16 further steps to loop; 17 in total
+[ 11/115] India
     South Asia                                                             /wiki/South_Asia
     southern                                                               /wiki/South
     cardinal directions                                                    /wiki/Cardinal_direction
     north                                                                  /wiki/North
     cardinal directions                                                    /wiki/Cardinal_direction
-loop! 
-World War II                   
+    Hit loop after 05 steps 
+[ 12/115] World War II
     global war                                                             /wiki/World_war
     war                                                                    /wiki/War
     states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-Michael Jackson                
+    Hit tree after 03 steps - 11 further steps to loop; 14 in total
+[ 13/115] Michael Jackson
     King of Pop                                                            /wiki/Honorific_nicknames_in_popular_music
     religious                                                              /wiki/Pantheon_(gods)
     polytheistic                                                           /wiki/Polytheistic
@@ -192,61 +148,25 @@ Michael Jackson
     interviews                                                             /wiki/Interview
     conversation                                                           /wiki/Conversation
     communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 19 steps
-Malware                        
+    Hit tree after 12 steps - 12 further steps to loop; 24 in total
+[ 14/115] Malware
     computer viruses                                                       /wiki/Computer_virus
     replicates                                                             /wiki/Quine_(computing)
     computer program                                                       /wiki/Computer_program
     instructions                                                           /wiki/Instruction_set
     computer                                                               /wiki/Computer
-    instructed                                                             /wiki/Computer_programming
-    computing                                                              /wiki/Computing
-    mathematical                                                           /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 21 steps
-Sex                            
+    Hit tree after 05 steps - 21 further steps to loop; 26 in total
+[ 15/115] Sex
     Organisms                                                              /wiki/Organism
     biology                                                                /wiki/Biology
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 10 steps
-United Kingdom                 
+    knowledge                                                              /wiki/Knowledge
+    Hit tree after 05 steps - 02 further steps to loop; 07 in total
+[ 16/115] United Kingdom
     sovereign country                                                      /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-Lady Gaga                      
+    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+[ 17/115] Lady Gaga
     open mic                                                               /wiki/Open_mic
     coffeehouse                                                            /wiki/Coffeehouse
     coffee                                                                 /wiki/Coffee
@@ -256,14 +176,8 @@ Lady Gaga
     genus                                                                  /wiki/Genus
     taxonomic                                                              /wiki/Taxonomy_(biology)
     science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 15 steps
-Eminem                         
+    Hit tree after 09 steps - 03 further steps to loop; 12 in total
+[ 18/115] Eminem
     2000s                                                                  /wiki/2000s_in_music
     popular music                                                          /wiki/Popular_music
     music industry                                                         /wiki/Music_industry
@@ -272,22 +186,12 @@ Eminem
     cultural                                                               /wiki/Culture
     social behavior                                                        /wiki/Social_behavior
     behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-The Beatles                    
+    Hit tree after 08 steps - 07 further steps to loop; 15 in total
+[ 19/115] The Beatles
     rock                                                                   /wiki/Rock_music
     popular music                                                          /wiki/Popular_music
-    music industry                                                         /wiki/Music_industry
-    creating                                                               /wiki/Musical_composition
-    music                                                                  /wiki/Music
-    cultural                                                               /wiki/Culture
-    social behavior                                                        /wiki/Social_behavior
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-Adolf Hitler                   
+    Hit tree after 02 steps - 13 further steps to loop; 15 in total
+[ 20/115] Adolf Hitler
     Nazi Party                                                             /wiki/Nazi_Party
     far-right                                                              /wiki/Far-right_politics
     left-right spectrum                                                    /wiki/Left%E2%80%93right_political_spectrum
@@ -295,57 +199,26 @@ Adolf Hitler
     political                                                              /wiki/Politics
     making decisions                                                       /wiki/Decision-making
     psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-Justin Bieber                  
+    Hit tree after 07 steps - 08 further steps to loop; 15 in total
+[ 21/115] Justin Bieber
     YouTube                                                                /wiki/YouTube
-    video-sharing                                                          /wiki/Video_hosting_service
-    end users                                                              /wiki/End_user
-    product development                                                    /wiki/New_product_development
-    business                                                               /wiki/Business
-    organizational                                                         /wiki/Organization
-    entity                                                                 /wiki/Entity
-    exists                                                                 /wiki/Existence
-    being                                                                  /wiki/Being
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 11 steps
-World War I                    
+    Hit tree after 01 steps - 15 further steps to loop; 16 in total
+[ 22/115] World War I
     global war                                                             /wiki/World_war
-    war                                                                    /wiki/War
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-The Big Bang Theory            
+    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+[ 23/115] The Big Bang Theory
     sitcom                                                                 /wiki/Sitcom
     genre                                                                  /wiki/Genre
     category                                                               /wiki/Category_of_being
     ontology                                                               /wiki/Ontology
     philosophical                                                          /wiki/Philosophical
     study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Steve Jobs                     
+    Hit tree after 06 steps - 04 further steps to loop; 10 in total
+[ 24/115] Steve Jobs
     entrepreneur                                                           /wiki/Entrepreneurship
     business                                                               /wiki/Business
-    organizational                                                         /wiki/Organization
-    entity                                                                 /wiki/Entity
-    exists                                                                 /wiki/Existence
-    being                                                                  /wiki/Being
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 8 steps
-Canada                         
+    Hit tree after 02 steps - 11 further steps to loop; 13 in total
+[ 25/115] Canada
     North America                                                          /wiki/North_America
     continent                                                              /wiki/Continent
     landmasses                                                             /wiki/Land#Land_mass
@@ -355,55 +228,23 @@ Canada
     physical entity                                                        /wiki/Physical_body
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 16 steps
-Game of Thrones                
+    Hit tree after 09 steps - 04 further steps to loop; 13 in total
+[ 26/115] Game of Thrones
     fantasy                                                                /wiki/Fantasy
     genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-How I Met Your Mother          
+    Hit tree after 02 steps - 08 further steps to loop; 10 in total
+[ 27/115] How I Met Your Mother
     sitcom                                                                 /wiki/Sitcom
-    genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Academy Awards                 
+    Hit tree after 01 steps - 09 further steps to loop; 10 in total
+[ 28/115] Academy Awards
     Academy of Motion Picture Arts and Sciences                            /wiki/Academy_of_Motion_Picture_Arts_and_Sciences
     motion pictures                                                        /wiki/Film
     screen                                                                 /wiki/Projection_screen
     projected                                                              /wiki/Image_projector
     optical                                                                /wiki/Optical
     physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 14 steps
-Lil Wayne                      
+    Hit tree after 06 steps - 05 further steps to loop; 11 in total
+[ 29/115] Lil Wayne
     Cash Money Records                                                     /wiki/Cash_Money_Records
     Bryan "Birdman" Williams                                               /wiki/Birdman_(rapper)
     stage name                                                             /wiki/Stage_name
@@ -412,83 +253,31 @@ Lil Wayne
     term                                                                   /wiki/Term_(language)
     words                                                                  /wiki/Word
     linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 17 steps
-Kim Kardashian                 
+    Hit tree after 08 steps - 14 further steps to loop; 22 in total
+[ 30/115] Kim Kardashian
     stylist                                                                /wiki/Personal_stylist
     fashion                                                                /wiki/Fashion
     clothing                                                               /wiki/Clothing
     fibre                                                                  /wiki/Fibre
-    or                                                                     /wiki/American_and_British_English_spelling_differences
-    spelling                                                               /wiki/Spelling
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 19 steps
-Australia                      
+    Hit tree after 04 steps - 20 further steps to loop; 24 in total
+[ 31/115] Australia
     Australian continent                                                   /wiki/Australia_(continent)
     Australian mainland                                                    /wiki/Australian_mainland
     land mass                                                              /wiki/Land#Land_mass
-    Earth                                                                  /wiki/Earth
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 16 steps
-Cristiano Ronaldo              
+    Hit tree after 03 steps - 10 further steps to loop; 13 in total
+[ 32/115] Cristiano Ronaldo
     GOIH                                                                   /wiki/Order_of_Prince_Henry
     Portuguese                                                             /wiki/Portugal
     sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-XHamster                       
+    Hit tree after 03 steps - 13 further steps to loop; 16 in total
+[ 33/115] XHamster
     pornographic                                                           /wiki/Pornography
     sexual                                                                 /wiki/Human_sexual_activity
     sexuality                                                              /wiki/Human_sexuality
     biological                                                             /wiki/Biological
     natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 12 steps
-Miley Cyrus                    
+    Hit tree after 05 steps - 04 further steps to loop; 09 in total
+[ 34/115] Miley Cyrus
     Doc                                                                    /wiki/Doc_(2001_TV_series)
     medical drama                                                          /wiki/Medical_drama
     television program                                                     /wiki/Television_program
@@ -504,97 +293,47 @@ Miley Cyrus
     matter                                                                 /wiki/Matter
     classical physics                                                      /wiki/Classical_physics
     physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 23 steps
-Elizabeth II                   
+    Hit tree after 15 steps - 05 further steps to loop; 20 in total
+[ 35/115] Elizabeth II
     Queen                                                                  /wiki/Queen_regnant
     monarch                                                                /wiki/Monarch
     sovereign                                                              /wiki/Potentate
-    potent                                                                 https://en.wiktionary.org/wiki/Special:Search/potent
-broken link! 
-List of Presidents of the United States 
-    President of the United States                                         /wiki/President_of_the_United_States
-    head of state                                                          /wiki/Head_of_state
-    sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-Harry Potter                   
+    dictator                                                               /wiki/Dictator
+    absolute power                                                         /wiki/Autocracy
+    system of government                                                   /wiki/Government
+    state                                                                  /wiki/State_(polity)
+    Hit tree after 07 steps - 11 further steps to loop; 18 in total
+[ 36/115] List of Presidents of the United States
+    Hit tree after 00 steps - 16 further steps to loop; 16 in total
+[ 37/115] Harry Potter
     fantasy novels                                                         /wiki/Fantasy_literature
     imaginary universe                                                     /wiki/Imaginary_universe
     self-consistent                                                        /wiki/Consistency
     classical                                                              /wiki/Classical_logic
     formal logics                                                          /wiki/Formal_logic
     mathematics                                                            /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 19 steps
-Rihanna                        
+    Hit tree after 06 steps - 18 further steps to loop; 24 in total
+[ 38/115] Rihanna
     mononymously                                                           /wiki/Mononym
-    polynym                                                                https://en.wiktionary.org/wiki/polynym
-broken link! 
-Japan                          
+    Alulim                                                                 /wiki/Alulim
+    Eridu                                                                  /wiki/Eridu
+    archaeological site                                                    /wiki/Archaeological_site
+    archaeology                                                            /wiki/Archaeology
+    human                                                                  /wiki/Human
+    extant                                                                 /wiki/Extant_taxon
+    biology                                                                /wiki/Biology
+    Hit tree after 08 steps - 05 further steps to loop; 13 in total
+[ 39/115] Japan
     sovereign                                                              /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-Selena Gomez                   
+    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+[ 40/115] Selena Gomez
     Barney & Friends                                                       /wiki/Barney_%26_Friends
     children's television series                                           /wiki/Children%27s_television_series
     Kukla, Fran and Ollie                                                  /wiki/Kukla,_Fran_and_Ollie
     television show                                                        /wiki/Television_show
     over-the-air                                                           /wiki/Terrestrial_television
-    television                                                             /wiki/Television
-    monochrome                                                             /wiki/Monochrome
-    values                                                                 /wiki/Lightness
-    colorimetry                                                            /wiki/Colorimetry
-    technology                                                             /wiki/Technology
-    techniques                                                             /wiki/Art_techniques_and_materials
-    material                                                               /wiki/Material
-    chemical substance                                                     /wiki/Chemical_substance
-    matter                                                                 /wiki/Matter
-    classical physics                                                      /wiki/Classical_physics
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    scientific method                                                      /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 24 steps
-Glee (TV series)               
+    Hit tree after 05 steps - 16 further steps to loop; 21 in total
+[ 41/115] Glee (TV series)
     comedy-drama                                                           /wiki/Comedy-drama
     tragicomedy                                                            /wiki/Tragicomedy
     literary genre                                                         /wiki/Literary_genre
@@ -603,114 +342,41 @@ Glee (TV series)
     real                                                                   /wiki/Nonfiction
     content                                                                /wiki/Content_(media)
     information                                                            /wiki/Information
-    data                                                                   /wiki/Data
-    set                                                                    /wiki/Set_(mathematics)
-    mathematics                                                            /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 24 steps
-Germany                        
+    Hit tree after 08 steps - 21 further steps to loop; 29 in total
+[ 42/115] Germany
     federal                                                                /wiki/Federation
-    union                                                                  /wiki/Political_union
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-The Walking Dead (TV series)   
+    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+[ 43/115] The Walking Dead (TV series)
     post-apocalyptic                                                       /wiki/Apocalyptic_and_post-apocalyptic_fiction
     science fiction                                                        /wiki/Science_fiction
     genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Abraham Lincoln                
+    Hit tree after 03 steps - 08 further steps to loop; 11 in total
+[ 44/115] Abraham Lincoln
     16th President of the United States                                    /wiki/List_of_Presidents_of_the_United_States
-    President of the United States                                         /wiki/President_of_the_United_States
-    head of state                                                          /wiki/Head_of_state
-    sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-Taylor Swift                   
+    Hit tree after 01 steps - 16 further steps to loop; 17 in total
+[ 45/115] Taylor Swift
     Pennsylvania                                                           /wiki/Pennsylvania
     /ˌpɛnsɪlˈveɪnjə/                                                       /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
+    English people                                                         /wiki/English_people
+    nation                                                                 /wiki/Nation
+    Latin                                                                  /wiki/Latin
+    classical language                                                     /wiki/Classical_language
     language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 16 steps
-Star Wars                      
+    Hit tree after 07 steps - 13 further steps to loop; 20 in total
+[ 46/115] Star Wars
     epic                                                                   /wiki/Epic_film
     genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Indigenous australian          
+    Hit tree after 02 steps - 08 further steps to loop; 10 in total
+[ 47/115] Indigenous australian
     Department of Aboriginal Affairs                                       /wiki/Department_of_Aboriginal_Affairs
     Australian government                                                  /wiki/Government_of_Australia
     government                                                             /wiki/Government
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-China                          
+    Hit tree after 03 steps - 12 further steps to loop; 15 in total
+[ 48/115] China
     unitary                                                                /wiki/Unitary_state
     state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 8 steps
-Lionel Messi                   
+    Hit tree after 02 steps - 11 further steps to loop; 13 in total
+[ 49/115] Lionel Messi
     footballer                                                             /wiki/Association_football
     team sport                                                             /wiki/Team_sport
     sport                                                                  /wiki/Sport
@@ -722,31 +388,17 @@ Lionel Messi
     systematic                                                             /wiki/Systematic_process
     critical thinking                                                      /wiki/Critical_thinking
     objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 12 steps
-Breaking Bad                   
+    Hit tree after 11 steps - 06 further steps to loop; 17 in total
+[ 50/115] Breaking Bad
     neo-western                                                            /wiki/Western_(genre)#Contemporary_Western
     genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Johnny Depp                    
+    Hit tree after 02 steps - 08 further steps to loop; 10 in total
+[ 51/115] Johnny Depp
     Golden Globe Award                                                     /wiki/Golden_Globe_Award
     Hollywood Foreign Press Association                                    /wiki/Hollywood_Foreign_Press_Association
     organization                                                           /wiki/Organization
-    entity                                                                 /wiki/Entity
-    exists                                                                 /wiki/Existence
-    being                                                                  /wiki/Being
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 8 steps
-New York City                  
+    Hit tree after 03 steps - 10 further steps to loop; 13 in total
+[ 52/115] New York City
     most populous city                                                     /wiki/List_of_United_States_cities_by_population
     incorporated places                                                    /wiki/Municipal_corporation
     local governing body                                                   /wiki/Local_government
@@ -757,61 +409,20 @@ New York City
     right                                                                  /wiki/Legitimacy_(political)
     political science                                                      /wiki/Political_science
     social science                                                         /wiki/Social_science
-    academic disciplines                                                   /wiki/Discipline_(academia)
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Tupac Shakur                   
+    Hit tree after 10 steps - 04 further steps to loop; 14 in total
+[ 53/115] Tupac Shakur
     stage names                                                            /wiki/Stage_name
-    pseudonym                                                              /wiki/Pseudonym
-    name                                                                   /wiki/Name
-    term                                                                   /wiki/Term_(language)
-    words                                                                  /wiki/Word
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 15 steps
-Web scraping                   
+    Hit tree after 01 steps - 19 further steps to loop; 20 in total
+[ 54/115] Web scraping
     data scraping                                                          /wiki/Data_scraping
     computer program                                                       /wiki/Computer_program
-    instructions                                                           /wiki/Instruction_set
-    computer                                                               /wiki/Computer
-    instructed                                                             /wiki/Computer_programming
-    computing                                                              /wiki/Computing
-    mathematical                                                           /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 20 steps
-France                         
+    Hit tree after 02 steps - 23 further steps to loop; 25 in total
+[ 55/115] France
     country                                                                /wiki/Country
     political geography                                                    /wiki/Political_geography
     political                                                              /wiki/Politics
-    making decisions                                                       /wiki/Decision-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 8 steps
-Kanye West                     
+    Hit tree after 03 steps - 10 further steps to loop; 13 in total
+[ 56/115] Kanye West
     Atlanta                                                                /wiki/Atlanta
     capital                                                                /wiki/Capital_city
     municipality                                                           /wiki/Municipality
@@ -819,353 +430,136 @@ Kanye West
     human settlement                                                       /wiki/Human_settlement
     geography                                                              /wiki/Geography
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Russia                         
+    Hit tree after 07 steps - 03 further steps to loop; 10 in total
+[ 57/115] Russia
     Eurasia                                                                /wiki/Eurasia
     /jʊˈreɪʒə/                                                             /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 16 steps
-Stephen Hawking                
+    Hit tree after 02 steps - 18 further steps to loop; 20 in total
+[ 58/115] Stephen Hawking
     CH                                                                     /wiki/Companion_of_Honour
     order                                                                  /wiki/Order_(decoration)
     honour                                                                 /wiki/Honour
     family                                                                 /wiki/Family
     human                                                                  /wiki/Human
-    extant                                                                 /wiki/Extant_taxon
-    biology                                                                /wiki/Biology
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Albert Einstein                
+    Hit tree after 05 steps - 07 further steps to loop; 12 in total
+[ 59/115] Albert Einstein
     theoretical physicist                                                  /wiki/Theoretical_physicist
     physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Earth                          
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Angelina Jolie                 
+    Hit tree after 02 steps - 05 further steps to loop; 07 in total
+[ 60/115] Earth
+    Hit tree after 00 steps - 09 further steps to loop; 09 in total
+[ 61/115] Angelina Jolie
     Academy Award                                                          /wiki/Academy_Award
     Academy of Motion Picture Arts and Sciences                            /wiki/Academy_of_Motion_Picture_Arts_and_Sciences
-    motion pictures                                                        /wiki/Film
-    screen                                                                 /wiki/Projection_screen
-    projected                                                              /wiki/Image_projector
-    optical                                                                /wiki/Optical
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Mark Zuckerberg                
+    Hit tree after 02 steps - 10 further steps to loop; 12 in total
+[ 62/115] Mark Zuckerberg
     Facebook                                                               /wiki/Facebook
-    for-profit corporation                                                 /wiki/For-profit_corporation
-    private sector                                                         /wiki/Private_sector
-    profit                                                                 /wiki/Profit_(accounting)
-    accounting                                                             /wiki/Accounting
-    economic entities                                                      /wiki/Economic_entity
-    accounting                                                             /wiki/Accounting
-loop! 
-Internet Movie Database        
+    Hit tree after 01 steps - 06 further steps to loop; 07 in total
+[ 63/115] Internet Movie Database
     online database                                                        /wiki/Online_database
     database                                                               /wiki/Database
     data                                                                   /wiki/Data_(computing)
     metadata                                                               /wiki/Metadata
     data                                                                   /wiki/Data
-    set                                                                    /wiki/Set_(mathematics)
-    mathematics                                                            /wiki/Mathematics
-    objects                                                                /wiki/Mathematical_object
-    abstract object                                                        /wiki/Abstract_object
-    referent                                                               /wiki/Referent
-    linguistic                                                             /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 20 steps
-Leonardo DiCaprio              
+    Hit tree after 05 steps - 20 further steps to loop; 25 in total
+[ 64/115] Leonardo DiCaprio
     Santa Barbara                                                          /wiki/Santa_Barbara_(TV_series)
     television                                                             /wiki/Television
-    monochrome                                                             /wiki/Monochrome
-    values                                                                 /wiki/Lightness
-    colorimetry                                                            /wiki/Colorimetry
-    technology                                                             /wiki/Technology
-    techniques                                                             /wiki/Art_techniques_and_materials
-    material                                                               /wiki/Material
-    chemical substance                                                     /wiki/Chemical_substance
-    matter                                                                 /wiki/Matter
-    classical physics                                                      /wiki/Classical_physics
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Nicki Minaj                    
+    Hit tree after 02 steps - 15 further steps to loop; 17 in total
+[ 65/115] Nicki Minaj
     Trinidadian-American                                                   /wiki/Trinidadian-American
     Americans                                                              /wiki/Americans
     United States of America                                               /wiki/United_States
-    federal republic                                                       /wiki/Federal_republic
-    federation                                                             /wiki/Federation
-    union                                                                  /wiki/Political_union
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 13 steps
-William Shakespeare            
+    Hit tree after 03 steps - 15 further steps to loop; 18 in total
+[ 66/115] William Shakespeare
     poet                                                                   /wiki/Poet
     poetry                                                                 /wiki/Poetry
     literature                                                             /wiki/Literature
     written works                                                          /wiki/Writing
     communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-Michael Jordan                 
+    Hit tree after 05 steps - 12 further steps to loop; 17 in total
+[ 67/115] Michael Jordan
     basketball                                                             /wiki/Basketball
     sport                                                                  /wiki/Sport
-    competitive                                                            /wiki/Competition
-    territory                                                              /wiki/Territory_(animal)
-    ethology                                                               /wiki/Ethology
-    scientific                                                             /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 11 steps
-Dwayne Johnson                 
+    Hit tree after 02 steps - 14 further steps to loop; 16 in total
+[ 68/115] Dwayne Johnson
     ring name                                                              /wiki/Ring_name
     professional wrestler                                                  /wiki/Wrestling
     combat sport                                                           /wiki/Combat_sport
     contact sport                                                          /wiki/Contact_sport
     sports                                                                 /wiki/Sport
-    competitive                                                            /wiki/Competition
-    territory                                                              /wiki/Territory_(animal)
-    ethology                                                               /wiki/Ethology
-    scientific                                                             /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 14 steps
-Katy Perry                     
+    Hit tree after 05 steps - 14 further steps to loop; 19 in total
+[ 69/115] Katy Perry
     gospel music                                                           /wiki/Gospel_music
     Christian music                                                        /wiki/Christian_music
     music                                                                  /wiki/Music
-    cultural                                                               /wiki/Culture
-    social behavior                                                        /wiki/Social_behavior
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 8 steps
-Illuminati                     
+    Hit tree after 03 steps - 10 further steps to loop; 13 in total
+[ 70/115] Illuminati
     Enlightenment                                                          /wiki/Age_of_enlightenment
     liberty                                                                /wiki/Liberty
     free will                                                              /wiki/Free_will
     choose                                                                 /wiki/Choice
     decision making                                                        /wiki/Decision_making
     psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-Doctor Who                     
+    Hit tree after 06 steps - 08 further steps to loop; 14 in total
+[ 71/115] Doctor Who
     British                                                                /wiki/British_television_science_fiction
     BBC                                                                    /wiki/BBC
     public service broadcaster                                             /wiki/Public_service_broadcaster
     media                                                                  /wiki/Mass_media
     media                                                                  /wiki/Media_(communication)
     communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 13 steps
-Mila Kunis                     
+    Hit tree after 06 steps - 12 further steps to loop; 18 in total
+[ 72/115] Mila Kunis
     USSR                                                                   /wiki/USSR
     socialist state                                                        /wiki/Socialist_state
     state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-Vietnam War                    
+    Hit tree after 03 steps - 11 further steps to loop; 14 in total
+[ 73/115] Vietnam War
     Vietnam                                                                /wiki/Vietnam
     Indochina Peninsula                                                    /wiki/Indochina
     Southeast Asia                                                         /wiki/Southeast_Asia
     subregion                                                              /wiki/Subregion
     region                                                                 /wiki/Region
     geography                                                              /wiki/Geography
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-John F. Kennedy                
+    Hit tree after 06 steps - 04 further steps to loop; 10 in total
+[ 74/115] John F. Kennedy
     35th President of the United States                                    /wiki/List_of_Presidents_of_the_United_States
-    President of the United States                                         /wiki/President_of_the_United_States
-    head of state                                                          /wiki/Head_of_state
-    sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-Adele                          
+    Hit tree after 01 steps - 16 further steps to loop; 17 in total
+[ 75/115] Adele
     MBE                                                                    /wiki/Member_of_the_Order_of_the_British_Empire
     order of chivalry                                                      /wiki/Order_of_chivalry
     order                                                                  /wiki/Order_(honour)
     honour                                                                 /wiki/Honour
-    family                                                                 /wiki/Family
-    human                                                                  /wiki/Human
-    extant                                                                 /wiki/Extant_taxon
-    biology                                                                /wiki/Biology
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Sexual intercourse             
+    Hit tree after 04 steps - 09 further steps to loop; 13 in total
+[ 76/115] Sexual intercourse
     thrusting                                                              /wiki/Pelvic_thrust
     pelvic                                                                 /wiki/Pelvis
     trunk                                                                  /wiki/Trunk_(anatomy)
     thorax                                                                 /wiki/Thorax
     anatomy                                                                /wiki/Anatomy
     biology                                                                /wiki/Biology
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Human penis size               
+    Hit tree after 06 steps - 05 further steps to loop; 11 in total
+[ 77/115] Human penis size
     human penis                                                            /wiki/Human_penis
     male                                                                   /wiki/Male
     organism                                                               /wiki/Organism
-    biology                                                                /wiki/Biology
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-One Direction                  
+    Hit tree after 03 steps - 06 further steps to loop; 09 in total
+[ 78/115] One Direction
     pop                                                                    /wiki/Pop_music
     genre                                                                  /wiki/Music_genre
     music                                                                  /wiki/Music
-    cultural                                                               /wiki/Culture
-    social behavior                                                        /wiki/Social_behavior
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 8 steps
-Favicon.ico                    
+    Hit tree after 03 steps - 10 further steps to loop; 13 in total
+[ 79/115] Favicon.ico
     /ˈfæv.ɪˌkɒn/                                                           /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 15 steps
-Global warming                 
+    Hit tree after 01 steps - 18 further steps to loop; 19 in total
+[ 80/115] Global warming
     Earth                                                                  /wiki/Earth
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-London                         
+    Hit tree after 01 steps - 09 further steps to loop; 10 in total
+[ 81/115] London
     /ˈlʌndən/                                                              /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 15 steps
-John Cena                      
+    Hit tree after 01 steps - 18 further steps to loop; 19 in total
+[ 82/115] John Cena
     WWE                                                                    /wiki/WWE
     professional wrestling                                                 /wiki/Professional_wrestling
     performance art                                                        /wiki/Performance_art
@@ -1174,133 +568,57 @@ John Cena
     art                                                                    /wiki/Art
     human activities                                                       /wiki/Human_behavior
     humans                                                                 /wiki/Human
-    extant                                                                 /wiki/Extant_taxon
-    biology                                                                /wiki/Biology
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Muhammad Ali                   
+    Hit tree after 08 steps - 07 further steps to loop; 15 in total
+[ 83/115] Muhammad Ali
     professional boxer                                                     /wiki/Professional_boxer
     purse                                                                  /wiki/Purse_bid
     boxing                                                                 /wiki/Boxing
     combat sport                                                           /wiki/Combat_sport
-    contact sport                                                          /wiki/Contact_sport
-    sports                                                                 /wiki/Sport
-    competitive                                                            /wiki/Competition
-    territory                                                              /wiki/Territory_(animal)
-    ethology                                                               /wiki/Ethology
-    scientific                                                             /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 15 steps
-List of The Big Bang Theory episodes 
+    Hit tree after 04 steps - 16 further steps to loop; 20 in total
+[ 84/115] List of The Big Bang Theory episodes
     The Big Bang Theory                                                    /wiki/The_Big_Bang_Theory
-    sitcom                                                                 /wiki/Sitcom
-    genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Vagina                         
+    Hit tree after 01 steps - 10 further steps to loop; 11 in total
+[ 85/115] Vagina
     mammals                                                                /wiki/Mammal
     vertebrates                                                            /wiki/Vertebrate
     /ˈvɜːrtɪbrɪts/                                                         /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 17 steps
-Jay-Z                          
+    Hit tree after 03 steps - 18 further steps to loop; 21 in total
+[ 86/115] Jay-Z
     best-selling musicians of all time                                     /wiki/List_of_best-selling_music_artists
     Soundscan                                                              /wiki/Soundscan
     Mike Shalett                                                           /wiki/Foundations_Forum
     heavy metal music                                                      /wiki/Heavy_metal_music
     rock music                                                             /wiki/Rock_music
-    popular music                                                          /wiki/Popular_music
-    music industry                                                         /wiki/Music_industry
-    creating                                                               /wiki/Musical_composition
-    music                                                                  /wiki/Music
-    cultural                                                               /wiki/Culture
-    social behavior                                                        /wiki/Social_behavior
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 14 steps
-Bill Gates                     
+    Hit tree after 05 steps - 14 further steps to loop; 19 in total
+[ 87/115] Bill Gates
     business magnate                                                       /wiki/Business_magnate
     czars                                                                  /wiki/Tsar
     title                                                                  /wiki/Royal_titles
     royalty                                                                /wiki/Monarch
-    sovereign                                                              /wiki/Potentate
-    potent                                                                 https://en.wiktionary.org/wiki/Special:Search/potent
-broken link! 
-Arnold Schwarzenegger          
+    Hit tree after 04 steps - 16 further steps to loop; 20 in total
+[ 88/115] Arnold Schwarzenegger
     Austrian-American                                                      /wiki/Austrian-American
     European Americans                                                     /wiki/European_Americans
     Americans                                                              /wiki/Americans
-    United States of America                                               /wiki/United_States
-    federal republic                                                       /wiki/Federal_republic
-    federation                                                             /wiki/Federation
-    union                                                                  /wiki/Political_union
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 14 steps
-Will Smith                     
+    Hit tree after 03 steps - 16 further steps to loop; 19 in total
+[ 89/115] Will Smith
     Newsweek                                                               /wiki/Newsweek
     The Washington Post Company                                            /wiki/Graham_Holdings_Company
     diversified                                                            /wiki/Diversification_(marketing_strategy)
     Ansoff Matrix                                                          /wiki/Ansoff_Matrix
     strategic planning                                                     /wiki/Strategic_planning
     organization                                                           /wiki/Organization
-    entity                                                                 /wiki/Entity
-    exists                                                                 /wiki/Existence
-    being                                                                  /wiki/Being
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 11 steps
-September 11 attacks           
+    Hit tree after 06 steps - 10 further steps to loop; 16 in total
+[ 90/115] September 11 attacks
     terrorist attacks                                                      /wiki/Terrorism
     peacetime                                                              /wiki/Peacetime
     conflict                                                               /wiki/War
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 10 steps
-Halloween                      
+    Hit tree after 03 steps - 12 further steps to loop; 15 in total
+[ 91/115] Halloween
     observed in a number of countries                                      /wiki/Geography_of_Halloween
     Halloween                                                              /wiki/Halloween
-loop! 
-Prince (musician)              
+    Hit loop after 02 steps 
+[ 92/115] Prince (musician)
     vocal range                                                            /wiki/Vocal_range
     pitches                                                                /wiki/Pitch_(music)
     perceptual                                                             /wiki/Perception
@@ -1308,131 +626,51 @@ Prince (musician)
     physiological                                                          /wiki/Physiological
     mechanisms                                                             /wiki/Mechanism_(biology)
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-David Bowie                    
+    Hit tree after 07 steps - 03 further steps to loop; 10 in total
+[ 93/115] David Bowie
     popular music                                                          /wiki/Popular_music
-    music industry                                                         /wiki/Music_industry
-    creating                                                               /wiki/Musical_composition
-    music                                                                  /wiki/Music
-    cultural                                                               /wiki/Culture
-    social behavior                                                        /wiki/Social_behavior
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 9 steps
-England                        
+    Hit tree after 01 steps - 13 further steps to loop; 14 in total
+[ 94/115] England
     part                                                                   /wiki/Countries_of_the_United_Kingdom
     United Kingdom                                                         /wiki/United_Kingdom
-    sovereign country                                                      /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-Singapore                      
+    Hit tree after 02 steps - 14 further steps to loop; 16 in total
+[ 95/115] Singapore
     sovereign city-state                                                   /wiki/City-state#Sovereign_city-states
     sovereign                                                              /wiki/Sovereign
     substantive                                                            /wiki/Substantive
     word                                                                   /wiki/Word
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 14 steps
-Pornography                    
-    sexual                                                                 /wiki/Human_sexual_activity
-    sexuality                                                              /wiki/Human_sexuality
-    biological                                                             /wiki/Biological
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Israel                         
+    Hit tree after 04 steps - 15 further steps to loop; 19 in total
+[ 96/115] Pornography
+    Hit tree after 00 steps - 08 further steps to loop; 08 in total
+[ 97/115] Israel
     Middle East                                                            /wiki/Middle_East
     transcontinental                                                       /wiki/Transcontinental_country
     continent                                                              /wiki/Continent
-    landmasses                                                             /wiki/Land#Land_mass
-    Earth                                                                  /wiki/Earth
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Bruce Lee                      
+    Hit tree after 03 steps - 11 further steps to loop; 14 in total
+[ 98/115] Bruce Lee
     Hong Kong                                                              /wiki/Hong_Kong_people
     Hong Kong                                                              /wiki/Hong_Kong
     autonomous territory                                                   /wiki/Autonomous_territory
     subdivision                                                            /wiki/Administrative_division
     country                                                                /wiki/Country
-    political geography                                                    /wiki/Political_geography
-    political                                                              /wiki/Politics
-    making decisions                                                       /wiki/Decision-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 12 steps
-Java                           
+    Hit tree after 05 steps - 12 further steps to loop; 17 in total
+[ 99/115] Java
     island                                                                 /wiki/Island
     sub-continental                                                        /wiki/Continent
-    landmasses                                                             /wiki/Land#Land_mass
-    Earth                                                                  /wiki/Earth
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Marilyn Monroe                 
+    Hit tree after 02 steps - 11 further steps to loop; 13 in total
+[100/115] Marilyn Monroe
     dumb blonde                                                            /wiki/Dumb_blonde
     stereotypes                                                            /wiki/Stereotypes
     social psychology                                                      /wiki/Social_psychology
     scientific study                                                       /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Britney Spears                 
+    Hit tree after 04 steps - 03 further steps to loop; 07 in total
+[101/115] Britney Spears
     McComb, Mississippi                                                    /wiki/McComb,_Mississippi
     Pike County                                                            /wiki/Pike_County,_Mississippi
     county                                                                 /wiki/County_(United_States)
     United States                                                          /wiki/United_States
-    federal republic                                                       /wiki/Federal_republic
-    federation                                                             /wiki/Federation
-    union                                                                  /wiki/Political_union
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 14 steps
-Grey's Anatomy                 
+    Hit tree after 04 steps - 15 further steps to loop; 19 in total
+[102/115] Grey's Anatomy
     American Broadcasting Company                                          /wiki/American_Broadcasting_Company
     commercial broadcast                                                   /wiki/Commercial_broadcasting
     broadcasting                                                           /wiki/Broadcasting
@@ -1442,50 +680,18 @@ Grey's Anatomy
     management                                                             /wiki/Management
     administration                                                         /wiki/Administration_(disambiguation)
     Management                                                             /wiki/Management
-loop! 
-Tom Cruise                     
+    Hit loop after 09 steps 
+[103/115] Tom Cruise
     Academy Awards                                                         /wiki/Academy_Awards
-    Academy of Motion Picture Arts and Sciences                            /wiki/Academy_of_Motion_Picture_Arts_and_Sciences
-    motion pictures                                                        /wiki/Film
-    screen                                                                 /wiki/Projection_screen
-    projected                                                              /wiki/Image_projector
-    optical                                                                /wiki/Optical
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Brazil                         
+    Hit tree after 01 steps - 11 further steps to loop; 12 in total
+[104/115] Brazil
     South America                                                          /wiki/South_America
     continent                                                              /wiki/Continent
-    landmasses                                                             /wiki/Land#Land_mass
-    Earth                                                                  /wiki/Earth
-    planet                                                                 /wiki/Planet
-    astronomical body                                                      /wiki/Astronomical_body
-    physical entity                                                        /wiki/Physical_body
-    physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-LeBron James                   
+    Hit tree after 02 steps - 11 further steps to loop; 13 in total
+[105/115] LeBron James
     basketball                                                             /wiki/Basketball
-    sport                                                                  /wiki/Sport
-    competitive                                                            /wiki/Competition
-    territory                                                              /wiki/Territory_(animal)
-    ethology                                                               /wiki/Ethology
-    scientific                                                             /wiki/Scientific_method
-    techniques                                                             /wiki/Scientific_technique
-    systematic                                                             /wiki/Systematic_process
-    critical thinking                                                      /wiki/Critical_thinking
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 11 steps
-RMS Titanic                    
+    Hit tree after 01 steps - 15 further steps to loop; 16 in total
+[106/115] RMS Titanic
     passenger liner                                                        /wiki/Superliner_(passenger_ship)
     ferries                                                                /wiki/Ferry
     merchant vessel                                                        /wiki/Merchant_vessel
@@ -1494,134 +700,51 @@ RMS Titanic
     vehicles                                                               /wiki/Vehicles
     mobile                                                                 /wiki/Motion_(physics)
     physics                                                                /wiki/Physics
-    natural science                                                        /wiki/Natural_science
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-Amazon.com                     
+    Hit tree after 08 steps - 05 further steps to loop; 13 in total
+[107/115] Amazon.com
     doing business as                                                      /wiki/Doing_business_as
     pseudonym                                                              /wiki/Pseudonym
-    name                                                                   /wiki/Name
-    term                                                                   /wiki/Term_(language)
-    words                                                                  /wiki/Word
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 15 steps
-Naruto                         
+    Hit tree after 02 steps - 18 further steps to loop; 20 in total
+[108/115] Naruto
     manga                                                                  /wiki/Manga
     comics                                                                 /wiki/Comics
     medium                                                                 /wiki/Media_(communication)
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-Masturbation                   
+    Hit tree after 03 steps - 13 further steps to loop; 16 in total
+[109/115] Masturbation
     sexual stimulation                                                     /wiki/Sexual_stimulation
     stimulus                                                               /wiki/Stimulation
     impulses                                                               /wiki/Action_potential
     physiology                                                             /wiki/Physiology
     mechanisms                                                             /wiki/Mechanism_(biology)
-    science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-AMGTV                          
+    Hit tree after 05 steps - 04 further steps to loop; 09 in total
+[110/115] AMGTV
     Animal Atlas                                                           /wiki/Animal_Atlas
     savanna                                                                /wiki/Savanna
     woodland                                                               /wiki/Woodland
     /ˈwʊdlənd/                                                             /wiki/Help:IPA/English
-    International Phonetic Alphabet                                        /wiki/International_Phonetic_Alphabet
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 18 steps
-English language               
+    Hit tree after 04 steps - 18 further steps to loop; 22 in total
+[111/115] English language
     West Germanic language                                                 /wiki/West_Germanic_language
     Germanic                                                               /wiki/Germanic_languages
     Indo-European                                                          /wiki/Indo-European_languages
     language family                                                        /wiki/Language_family
     languages                                                              /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 13 steps
-Lost (TV series)               
+    Hit tree after 05 steps - 13 further steps to loop; 18 in total
+[112/115] Lost (TV series)
     drama television series                                                /wiki/Drama_series
     genre                                                                  /wiki/Genre
-    category                                                               /wiki/Category_of_being
-    ontology                                                               /wiki/Ontology
-    philosophical                                                          /wiki/Philosophical
-    study                                                                  /wiki/Education
-    learning                                                               /wiki/Learning
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
-American Civil War             
+    Hit tree after 02 steps - 08 further steps to loop; 10 in total
+[113/115] American Civil War
     United States                                                          /wiki/United_States
-    federal republic                                                       /wiki/Federal_republic
-    federation                                                             /wiki/Federation
-    union                                                                  /wiki/Political_union
-    state                                                                  /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-Henry VIII of England          
+    Hit tree after 01 steps - 15 further steps to loop; 16 in total
+[114/115] Henry VIII of England
     King of England                                                        /wiki/King_of_England
     Kingdom of England                                                     /wiki/Kingdom_of_England
     sovereign state                                                        /wiki/Sovereign_state
-    international law                                                      /wiki/International_law
-    states                                                                 /wiki/State_(polity)
-    political entity                                                       /wiki/Polity
-    identity                                                               /wiki/Identity_(social_science)
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 11 steps
-Scarlett Johansson             
+    Hit tree after 03 steps - 13 further steps to loop; 16 in total
+[115/115] Scarlett Johansson
     Forbes Celebrity 100                                                   /wiki/Forbes_Celebrity_100
     Forbes                                                                 /wiki/Forbes
     business                                                               /wiki/Business
-    organizational                                                         /wiki/Organization
-    entity                                                                 /wiki/Entity
-    exists                                                                 /wiki/Existence
-    being                                                                  /wiki/Being
-    objective                                                              /wiki/Objectivity_(philosophy)
-    philosophical                                                          /wiki/Philosophy
-found: 9 steps
+    Hit tree after 03 steps - 11 further steps to loop; 14 in total
+

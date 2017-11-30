@@ -1,5 +1,5 @@
-#./wiki_graph.py
-# GMT Thu Nov 30 08:46:14 2017
+#./wiki.py -gs
+# GMT Thu Nov 30 14:26:03 2017
 # 
 - Character_(computing)
 Character_(computing) Computer
@@ -218,8 +218,10 @@ Classical_physics Physics
 Elizabeth_II Queen_regnant
 Queen_regnant Monarch
 Monarch Potentate
-Potentate potent
-potent potent
+Potentate Dictator
+Dictator Autocracy
+Autocracy Government
+Government State_(polity)
 Harry_Potter Fantasy_literature
 Fantasy_literature Imaginary_universe
 Imaginary_universe Consistency
@@ -227,8 +229,13 @@ Consistency Classical_logic
 Classical_logic Formal_logic
 Formal_logic Mathematics
 Rihanna Mononym
-Mononym polynym
-polynym polynym
+Mononym Alulim
+Alulim Eridu
+Eridu Archaeological_site
+Archaeological_site Archaeology
+Archaeology Human
+Human Extant_taxon
+Extant_taxon Biology
 Japan Sovereign_state
 Selena_Gomez Barney_%26_Friends
 Barney_%26_Friends Children%27s_television_series
@@ -250,14 +257,16 @@ Science_fiction Genre
 Abraham_Lincoln List_of_Presidents_of_the_United_States
 Taylor_Swift Pennsylvania
 Pennsylvania English
-English International_Phonetic_Alphabet
-International_Phonetic_Alphabet Alphabet
+English English_people
+English_people Nation
+Nation Latin
+Latin Classical_language
+Classical_language Language
 Star_Wars Epic_film
 Epic_film Genre
 Indigenous_australian Department_of_Aboriginal_Affairs
 Department_of_Aboriginal_Affairs Government_of_Australia
 Government_of_Australia Government
-Government State_(polity)
 China Unitary_state
 Unitary_state State_(polity)
 Lionel_Messi Association_football
@@ -306,8 +315,6 @@ Companion_of_Honour Order_(decoration)
 Order_(decoration) Honour
 Honour Family
 Family Human
-Human Extant_taxon
-Extant_taxon Biology
 Albert_Einstein Theoretical_physicist
 Theoretical_physicist Physics
 Angelina_Jolie Academy_Award
