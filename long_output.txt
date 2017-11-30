@@ -228,10 +228,13 @@ Sex
     biology                                                                /wiki/Biology
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 10 steps
 United Kingdom                 
     sovereign country                                                      /wiki/Sovereign_state
     international law                                                      /wiki/International_law
@@ -253,10 +256,13 @@ Lady Gaga
     genus                                                                  /wiki/Genus
     taxonomic                                                              /wiki/Taxonomy_(biology)
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 15 steps
 Eminem                         
     2000s                                                                  /wiki/2000s_in_music
     popular music                                                          /wiki/Popular_music
@@ -350,10 +356,13 @@ Canada
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 16 steps
 Game of Thrones                
     fantasy                                                                /wiki/Fantasy
     genre                                                                  /wiki/Genre
@@ -387,10 +396,13 @@ Academy Awards
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 14 steps
 Lil Wayne                      
     Cash Money Records                                                     /wiki/Cash_Money_Records
     Bryan "Birdman" Williams                                               /wiki/Birdman_(rapper)
@@ -442,10 +454,13 @@ Australia
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 16 steps
 Cristiano Ronaldo              
     GOIH                                                                   /wiki/Order_of_Prince_Henry
     Portuguese                                                             /wiki/Portugal
@@ -466,10 +481,13 @@ XHamster
     biological                                                             /wiki/Biological
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 12 steps
 Miley Cyrus                    
     Doc                                                                    /wiki/Doc_(2001_TV_series)
     medical drama                                                          /wiki/Medical_drama
@@ -488,10 +506,13 @@ Miley Cyrus
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 23 steps
 Elizabeth II                   
     Queen                                                                  /wiki/Queen_regnant
     monarch                                                                /wiki/Monarch
@@ -566,10 +587,13 @@ Selena Gomez
     physics                                                                /wiki/Physics
     natural science                                                        /wiki/Natural_science
     science                                                                /wiki/Science
-    knowledge                                                              /wiki/Knowledge
-    facts                                                                  /wiki/Fact
-    knowledge                                                              /wiki/Knowledge
-loop! 
+    scientific method                                                      /wiki/Scientific_method
+    techniques                                                             /wiki/Scientific_technique
+    systematic                                                             /wiki/Systematic_process
+    critical thinking                                                      /wiki/Critical_thinking
+    objective                                                              /wiki/Objectivity_(philosophy)
+    philosophical                                                          /wiki/Philosophy
+found: 24 steps
 Glee (TV series)               
     comedy-drama                                                           /wiki/Comedy-drama
     tragicomedy                                                            /wiki/Tragicomedy
@@ -1067,32 +1091,13 @@ Sexual intercourse
     trunk                                                                  /wiki/Trunk_(anatomy)
     thorax                                                                 /wiki/Thorax
     anatomy                                                                /wiki/Anatomy
-                                                                           /wiki/File:Paul_Stanley_looking_sober.jpg
-    File                                                                   #file
-    Wikipedia                                                              /wiki/Wikipedia
-    online encyclopedia                                                    /wiki/Online_encyclopedia
-    encyclopedia                                                           /wiki/Encyclopedia
-    reference work                                                         /wiki/Reference_work
-    book                                                                   /wiki/Book
-    codex                                                                  /wiki/Codex
-    paper                                                                  /wiki/Paper
-    fibres                                                                 /wiki/Fibre
-    or                                                                     /wiki/American_and_British_English_spelling_differences
-    spelling                                                               /wiki/Spelling
-    alphabetic                                                             /wiki/Alphabet
-    letters                                                                /wiki/Letter_(alphabet)
-    grapheme                                                               /wiki/Grapheme
-    linguistics                                                            /wiki/Linguistics
-    language                                                               /wiki/Language
-    communication                                                          /wiki/Communication
-    meanings                                                               /wiki/Meaning_(semiotics)
-    semiotics                                                              /wiki/Semiotics
-    meaning-making                                                         /wiki/Meaning-making
-    psychology                                                             /wiki/Psychology
-    behavior                                                               /wiki/Behavior
-    actions                                                                /wiki/Action_(philosophy)
-    philosophy                                                             /wiki/Philosophy
-found: 30 steps
+    biology                                                                /wiki/Biology
+    natural science                                                        /wiki/Natural_science
+    science                                                                /wiki/Science
+    knowledge                                                              /wiki/Knowledge
+    facts                                                                  /wiki/Fact
+    knowledge                                                              /wiki/Knowledge
+loop! 
 Human penis size               
     human penis                                                            /wiki/Human_penis
     male                                                                   /wiki/Male

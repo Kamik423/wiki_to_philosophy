@@ -9,7 +9,7 @@ import requests
 import re
 import sys
     
-debug = False
+verbose = True
 
 def get_next_link(link):
     source = requests.get('https://en.wikipedia.org' + link).text
@@ -37,7 +37,7 @@ def get_next_link(link):
     for citation in content.find_all('sup'):
         citation.decompose()
     link = content.find_all('a')[0]
-    if debug:
+    if verbose:
         print('   ', link.get_text().ljust(70), link.get('href'))
     return link.get('href')
 
@@ -68,12 +68,12 @@ for page in top_pages:
     n = page.get('href')
     running = True
     print(page.get('title').ljust(30), end = ' ')
-    if debug:
+    if verbose:
         print()
     while n.lower() != '/wiki/philosophy' and running:
         if n in stack:
             print('loop!', end = ' ')
-            if not debug:
+            if not verbose:
                 print('(' + n + ')')
             else:
                 print()
@@ -87,7 +87,7 @@ for page in top_pages:
             sys.exit()
         except:
             print('broken link!', end = ' ')
-            if not debug:
+            if not verbose:
                 print('(' + n + ')')
             else:
                 print()

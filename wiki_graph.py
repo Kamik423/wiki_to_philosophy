@@ -11,8 +11,10 @@ import sys
 import networkx as nx
 import matplotlib.pyplot as plt
 from networkx.drawing.nx_agraph import to_agraph
-    
-debug = False
+
+verbose = False
+create_graphs = True
+save = True
 G = nx.DiGraph()
 
 known = []
@@ -29,21 +31,21 @@ def get_next_link(link):
     for note in content.find_all('div', role='note'):
         note.decompose()
     for sidebox in (content.find_all(class_='vertical-navbox') +
-                    content.find_all(class_='infobox') + 
-                    content.find_all(class_='thumbinner') + 
-                    content.find_all(class_='metadata') + 
-                    content.find_all(class_='plainlinks') + 
-                    content.find_all(class_='navbox') + 
-                    content.find_all(class_='floatright') + 
-                    content.find_all(class_='toc') + 
-                    content.find_all(class_='mw-editsection') + 
-                    content.find_all(id='coordinates') + 
+                    content.find_all(class_='infobox') +
+                    content.find_all(class_='thumbinner') +
+                    content.find_all(class_='metadata') +
+                    content.find_all(class_='plainlinks') +
+                    content.find_all(class_='navbox') +
+                    content.find_all(class_='floatright') +
+                    content.find_all(class_='toc') +
+                    content.find_all(class_='mw-editsection') +
+                    content.find_all(id='coordinates') +
                     content.find_all('table', class_='vcard')):
         sidebox.decompose()
     for citation in content.find_all('sup'):
         citation.decompose()
     link = content.find_all('a')[0]
-    if debug:
+    if verbose:
         print('   ', link.get_text().ljust(70), link.get('href'))
     return link.get('href')
 
@@ -61,7 +63,7 @@ for table in soup.find_all('table', class_='wikitable'):
 top_pages = []
 for tr in top_table.find_all('tr'):
     if tr.find('a'):
-        if not ('Special:' in tr.get_text() or 
+        if not ('Special:' in tr.get_text() or
                 'Wikipedia:' in tr.get_text() or
                 'Portal:' in tr.get_text() or
                 'Talk:' in tr.get_text()):
@@ -79,12 +81,12 @@ for page in top_pages:
     running = True
     print(page.get('title').ljust(30), end = ' ')
     last = name
-    if debug:
+    if verbose:
         print()
-    while n.lower() != '/wiki/philosophy' and running:
+    while running:
         if n in stack:
             print('loop!', end = ' ')
-            if not debug:
+            if not verbose:
                 print('(' + n + ')')
             else:
                 print()
@@ -98,7 +100,7 @@ for page in top_pages:
             sys.exit()
         except:
             print('broken link!', end = ' ')
-            if not debug:
+            if not verbose:
                 print('(' + n + ')')
             else:
                 print()
@@ -113,21 +115,20 @@ for page in top_pages:
             if last != None:
                 G.add_edge(last, name)
         last = name
-    if n.lower() == '/wiki/philosophy':
-        print('found:', len(stack), 'steps')
-    else:
-        print('hit {} after'.format('loop' if n in stack else 'tree' ), len(stack), 'steps')
+    print('hit {} after'.format('loop' if n in stack else 'tree' ), len(stack), 'steps')
 
 print('done')
 
-fh=open("graph.adlist",'wb')
-nx.write_adjlist(G, fh)
-print('saved')
-A = to_agraph(G)
-layouts = ['dot', 'neato', 'fdp', 'twopi', 'circo', 'lefty', 'dotty', 'osage', 'patchwork', 'sfdp']
-for layout in layouts:
-    try:
-        A.draw('graph_{}.png'.format(layout), prog=layout)
-        print('drew graph for', layout)
-    except:
-        print("faile with layout {}".format(layout))
+if save:
+    fh=open("graph.adjlist",'wb')
+    nx.write_adjlist(G, fh)
+    print('saved')
+if create_graphs:
+    A = to_agraph(G)
+    layouts = ['dot', 'neato', 'fdp', 'twopi', 'lefty', 'dotty', 'osage', 'patchwork', 'sfdp']
+    for layout in layouts:
+        try:
+            A.draw('graph_{}.png'.format(layout), prog=layout)
+            print('drew graph for', layout)
+        except:
+            print("failed with layout {}".format(layout))

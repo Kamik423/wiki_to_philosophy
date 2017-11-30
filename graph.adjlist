@@ -1,5 +1,5 @@
 #./wiki_graph.py
-# GMT Wed Nov 29 18:55:09 2017
+# GMT Thu Nov 30 08:46:14 2017
 # 
 - Character_(computing)
 Character_(computing) Computer
@@ -19,7 +19,11 @@ Meaning-making Psychology
 Psychology Behavior
 Behavior Action_(philosophy)
 Action_(philosophy) Philosophy
-Philosophy
+Philosophy Education
+Education Learning
+Learning Knowledge
+Knowledge Fact
+Fact Knowledge
 Wiki Website
 Website Web_page
 Web_page World_Wide_Web
@@ -68,8 +72,6 @@ Natural_person Jurisprudence
 Jurisprudence Social_science
 Social_science Discipline_(academia)
 Discipline_(academia) Knowledge
-Knowledge Fact
-Fact Knowledge
 Donald_Trump List_of_Presidents_of_the_United_States
 List_of_Presidents_of_the_United_States President_of_the_United_States
 President_of_the_United_States Head_of_state
@@ -155,8 +157,6 @@ Genre Category_of_being
 Category_of_being Ontology
 Ontology Philosophical
 Philosophical Education
-Education Learning
-Learning Knowledge
 Steve_Jobs Entrepreneurship
 Entrepreneurship Business
 Canada North_America
@@ -369,9 +369,7 @@ Pelvic_thrust Pelvis
 Pelvis Trunk_(anatomy)
 Trunk_(anatomy) Thorax
 Thorax Anatomy
-Anatomy File:Paul_Stanley_looking_sober.jpg
-File:Paul_Stanley_looking_sober.jpg #file
-#file Wikipedia
+Anatomy Biology
 Human_penis_size Human_penis
 Human_penis Male
 Male Organism
