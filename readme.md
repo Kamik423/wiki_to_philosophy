@@ -2,9 +2,16 @@
 
 [![tweet](twitter.png)](https://twitter.com/davelevitan/status/935619980594466816)
 
+Also described [here](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy).
+
 So. Here it is. In Python. With Beautiful soup. Obviously.
 
 Also: I disproved the hypothesis: there are many loops (`/wiki/Accounting`), (`/wiki/Cardinal_direction`)
+
+## Result
+
+![dot](graph_dot.png)
+![neato](graph_neato.png)
 
 ## Best of
 
@@ -26,13 +33,21 @@ Citations like [5] or [edit] links are also links. Don't want those.
 
 I cannot categorically delete all parentheses from the code. It will damage links like `/wiki/set_(mathematics)`.
 
+I decided to go past philosophy and see what is next. If I stop when reaching philosophy there are two big trees. The other one ends in knowledge. Going past philosophy finally merges those.
+
+## Todo
+
+Remove redundant code from 3 separate files.
+
+Ignore external links.
+
 ## Acknowledgement
 
-Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challenge! It took about 2 hours.
+Thanks [@davelevitan](https://twitter.com/davelevitan) for bringing me this excelent challenge! It took about 2 hours.
 
 ## Sample output
 
-### Simple (`debug = False`)
+### Simple (`wiki.py` with `debug = False`)
 
 	-                              found: 18 steps
 	Wiki                           found: 22 steps
@@ -40,7 +55,7 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	YouTube                        found: 10 steps
 	404.php                        found: 20 steps
 	United States                  found: 10 steps
-	Google                         found: 12 steps
+	Google                         loop! (/wiki/Knowledge)
 	Donald Trump                   found: 12 steps
 	Wikipedia                      found: 22 steps
 	Barack Obama                   found: 12 steps
@@ -48,56 +63,56 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	World War II                   found: 9 steps
 	Michael Jackson                found: 19 steps
 	Malware                        found: 21 steps
-	Sex                            found: 8 steps
+	Sex                            loop! (/wiki/Knowledge)
 	United Kingdom                 found: 9 steps
-	Lady Gaga                      found: 13 steps
+	Lady Gaga                      loop! (/wiki/Knowledge)
 	Eminem                         found: 10 steps
 	The Beatles                    found: 10 steps
 	Adolf Hitler                   found: 10 steps
-	Justin Bieber                  broken link! (/wiki/Objectivity_(philosophy))
+	Justin Bieber                  found: 11 steps
 	World War I                    found: 9 steps
-	The Big Bang Theory            found: 11 steps
+	The Big Bang Theory            loop! (/wiki/Knowledge)
 	Steve Jobs                     found: 8 steps
-	Canada                         found: 14 steps
-	Game of Thrones                found: 11 steps
-	How I Met Your Mother          found: 11 steps
-	Academy Awards                 found: 12 steps
+	Canada                         loop! (/wiki/Knowledge)
+	Game of Thrones                loop! (/wiki/Knowledge)
+	How I Met Your Mother          loop! (/wiki/Knowledge)
+	Academy Awards                 loop! (/wiki/Knowledge)
 	Lil Wayne                      found: 17 steps
 	Kim Kardashian                 found: 19 steps
-	Australia                      found: 14 steps
+	Australia                      loop! (/wiki/Knowledge)
 	Cristiano Ronaldo              found: 11 steps
-	XHamster                       found: 10 steps
-	Miley Cyrus                    found: 21 steps
+	XHamster                       loop! (/wiki/Knowledge)
+	Miley Cyrus                    loop! (/wiki/Knowledge)
 	Elizabeth II                   broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
 	List of Presidents of the United States found: 11 steps
 	Harry Potter                   found: 19 steps
 	Rihanna                        broken link! (https://en.wiktionary.org/wiki/polynym)
 	Japan                          found: 9 steps
-	Selena Gomez                   found: 22 steps
+	Selena Gomez                   loop! (/wiki/Knowledge)
 	Glee (TV series)               found: 24 steps
 	Germany                        found: 9 steps
-	The Walking Dead (TV series)   found: 12 steps
+	The Walking Dead (TV series)   loop! (/wiki/Knowledge)
 	Abraham Lincoln                found: 12 steps
 	Taylor Swift                   found: 16 steps
-	Star Wars                      found: 11 steps
+	Star Wars                      loop! (/wiki/Knowledge)
 	Indigenous australian          found: 10 steps
 	China                          found: 8 steps
 	Lionel Messi                   found: 12 steps
-	Breaking Bad                   found: 11 steps
+	Breaking Bad                   loop! (/wiki/Knowledge)
 	Johnny Depp                    found: 8 steps
-	New York City                  found: 15 steps
+	New York City                  loop! (/wiki/Knowledge)
 	Tupac Shakur                   found: 15 steps
 	Web scraping                   found: 20 steps
 	France                         found: 8 steps
-	Kanye West                     found: 11 steps
+	Kanye West                     loop! (/wiki/Knowledge)
 	Russia                         found: 16 steps
-	Stephen Hawking                found: 13 steps
-	Albert Einstein                found: 8 steps
-	Earth                          found: 10 steps
-	Angelina Jolie                 found: 13 steps
+	Stephen Hawking                loop! (/wiki/Knowledge)
+	Albert Einstein                loop! (/wiki/Knowledge)
+	Earth                          loop! (/wiki/Knowledge)
+	Angelina Jolie                 loop! (/wiki/Knowledge)
 	Mark Zuckerberg                loop! (/wiki/Accounting)
 	Internet Movie Database        found: 20 steps
-	Leonardo DiCaprio              found: 18 steps
+	Leonardo DiCaprio              loop! (/wiki/Knowledge)
 	Nicki Minaj                    found: 13 steps
 	William Shakespeare            found: 12 steps
 	Michael Jordan                 found: 11 steps
@@ -106,18 +121,18 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	Illuminati                     found: 9 steps
 	Doctor Who                     found: 13 steps
 	Mila Kunis                     found: 9 steps
-	Vietnam War                    found: 11 steps
+	Vietnam War                    loop! (/wiki/Knowledge)
 	John F. Kennedy                found: 12 steps
-	Adele                          found: 14 steps
-	Sexual intercourse             found: 30 steps
-	Human penis size               found: 10 steps
+	Adele                          loop! (/wiki/Knowledge)
+	Sexual intercourse             loop! (/wiki/Knowledge)
+	Human penis size               loop! (/wiki/Knowledge)
 	One Direction                  found: 8 steps
 	Favicon.ico                    found: 15 steps
-	Global warming                 found: 11 steps
+	Global warming                 loop! (/wiki/Knowledge)
 	London                         found: 15 steps
-	John Cena                      found: 16 steps
+	John Cena                      loop! (/wiki/Knowledge)
 	Muhammad Ali                   found: 15 steps
-	List of The Big Bang Theory episodes found: 12 steps
+	List of The Big Bang Theory episodes loop! (/wiki/Knowledge)
 	Vagina                         found: 17 steps
 	Jay-Z                          found: 14 steps
 	Bill Gates                     broken link! (https://en.wiktionary.org/wiki/Special:Search/potent)
@@ -125,27 +140,27 @@ Thanks [@davelevitan](https://twitter.com/davelevitan) for this excelent challen
 	Will Smith                     found: 11 steps
 	September 11 attacks           found: 10 steps
 	Halloween                      loop! (/wiki/Halloween)
-	Prince (musician)              found: 11 steps
+	Prince (musician)              loop! (/wiki/Knowledge)
 	David Bowie                    found: 9 steps
 	England                        found: 11 steps
 	Singapore                      found: 14 steps
-	Pornography                    found: 9 steps
-	Israel                         found: 15 steps
+	Pornography                    loop! (/wiki/Knowledge)
+	Israel                         loop! (/wiki/Knowledge)
 	Bruce Lee                      found: 12 steps
-	Java                           found: 14 steps
-	Marilyn Monroe                 found: 8 steps
+	Java                           loop! (/wiki/Knowledge)
+	Marilyn Monroe                 loop! (/wiki/Knowledge)
 	Britney Spears                 found: 14 steps
 	Grey's Anatomy                 loop! (/wiki/Management)
-	Tom Cruise                     found: 13 steps
-	Brazil                         found: 14 steps
+	Tom Cruise                     loop! (/wiki/Knowledge)
+	Brazil                         loop! (/wiki/Knowledge)
 	LeBron James                   found: 11 steps
-	RMS Titanic                    found: 14 steps
+	RMS Titanic                    loop! (/wiki/Knowledge)
 	Amazon.com                     found: 15 steps
 	Naruto                         found: 11 steps
-	Masturbation                   found: 10 steps
+	Masturbation                   loop! (/wiki/Knowledge)
 	AMGTV                          found: 18 steps
 	English language               found: 13 steps
-	Lost (TV series)               found: 11 steps
+	Lost (TV series)               loop! (/wiki/Knowledge)
 	American Civil War             found: 11 steps
 	Henry VIII of England          found: 11 steps
 	Scarlett Johansson             found: 9 steps
