@@ -13,6 +13,8 @@ import sys
 
 
 # define constants
+file_name = 'graph.json'
+
 rel_link_root = '/wiki/'
 url_root = 'https://en.wikipedia.org'
 top_source = 'https://en.wikipedia.org/wiki/Wikipedia:Multiyear_ranking_of_most_viewed_pages#Top-100_list'
@@ -83,10 +85,10 @@ def get_next_link(link):
 # argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-g', '--graph', help='creates graphs', action='store_true')
-parser.add_argument('-l', '--load', help='use graph.adjlist as source not web', action='store_true')
+parser.add_argument('-l', '--load', help='use graph.json as source not web', action='store_true')
 parser.add_argument('-n', '--no-nx', help='do not use networkx (disables -g -l -s)', action='store_true')
 parser.add_argument('-r', '--root', help='search just specified page[s], separated by ","', type=str)
-parser.add_argument('-s', '--save', help='saves adjacency list', action='store_true')
+parser.add_argument('-s', '--save', help='saves graph to json', action='store_true')
 parser.add_argument('-t', '--time', help='displays the time per online step', action='store_true')
 parser.add_argument('-v', '--verbose', help='print entire path', action='store_true')
 
@@ -102,6 +104,8 @@ verbose = args.verbose
 roots = args.root
 
 # argument dependent imports
+if load or save:
+    import json
 if not load:
     import bs4
     import requests
@@ -118,7 +122,7 @@ if roots != None:
 
 # info print
 if load:
-    print('loading graph.adjlist')
+    print('loading {}'.format(file_name))
 else:
     print('searching {}:'.format(', '.join(roots) if roots != None else 'Top 100'))
 print('---------------')
@@ -137,10 +141,9 @@ G = None
 
 if load and use_nx:
     # load from file
-    G = nx.DiGraph()
-    fh = open("graph.adjlist",'rb')
-    nx.read_adjlist(fh, create_using=G)
-    # G = nx.read_adjlist(fh) # undirected version. Might have to be reinstated, since undocumented function.
+    fh = open(file_name, 'r')
+    G = nx.node_link_graph(json.loads(fh.read()))
+    fh.close()
     print('loaded file')
 else:
     # use WikipediA as data source
@@ -226,8 +229,9 @@ else:
 
 # save
 if save and use_nx:
-    fh=open("graph.adjlist",'wb')
-    nx.write_adjlist(G, fh)
+    fh = open(file_name, 'w')
+    fh.write(json.dumps(nx.node_link_data(G), indent=4))
+    fh.close()
     print('saved')
 
 # graphs
