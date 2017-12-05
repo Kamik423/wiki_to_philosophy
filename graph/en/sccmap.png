@@ -1,0 +1,31 @@
+strict digraph cluster_0 {
+	Knowledge -> Fact;
+	Fact -> Evidence;
+	Evidence -> "Logical assertion";
+	"Logical assertion" -> "Mathematical logic";
+	"Mathematical logic" -> Mathematics;
+	Mathematics -> Space;
+	Space -> "Physical body";
+	"Physical body" -> Physics;
+	Physics -> "Natural science";
+	"Natural science" -> Science;
+	Science -> Knowledge;
+}
+strict digraph cluster_1 {
+	"Cardinal direction" -> North;
+	North -> "Cardinal direction";
+}
+strict digraph cluster_2 {
+	Cairo -> "List of historical capitals of Egypt";
+	"List of historical capitals of Egypt" -> Cairo;
+}
+strict digraph cluster_3 {
+	"Covered wagon" -> "Conestoga wagon";
+	"Conestoga wagon" -> "Covered wagon";
+}
+digraph scc_map {
+	cluster_0;
+	cluster_1;
+	cluster_2;
+	cluster_3;
+}

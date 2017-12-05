@@ -1,0 +1,69 @@
+strict digraph cluster_0 {
+	Wissenschaft -> Wissen;
+	Wissen -> Gewissheit;
+	Gewissheit -> Sicherheit;
+	Sicherheit -> Risiko;
+	Risiko -> Ereignis;
+	Ereignis -> Beobachtung;
+	Beobachtung -> Ziel;
+	Ziel -> Zukunft;
+	Zukunft -> Zeit;
+	Zeit -> "Physikalische Größe";
+	"Physikalische Größe" -> Quantifizierung;
+	Quantifizierung -> Latein;
+	Latein -> "Indogermanische Sprachen";
+	"Indogermanische Sprachen" -> Sprachfamilie;
+	Sprachfamilie -> Sprache;
+	Sprache -> Kommunikation;
+	Kommunikation -> "Tausch (Soziologie)";
+	"Tausch (Soziologie)" -> Soziologie;
+	Soziologie -> Wissenschaft;
+}
+strict digraph cluster_1 {
+	Philosophie -> Welt;
+	Welt -> Totalität;
+	Totalität -> Philosophie;
+}
+strict digraph cluster_2 {
+	Japan -> "Liste japanischer Inseln";
+	"Liste japanischer Inseln" -> Japan;
+}
+strict digraph cluster_3 {
+	"Chemisches Element" -> "Chemischer Stoff";
+	"Chemischer Stoff" -> "Chemisches Element";
+}
+strict digraph cluster_4 {
+	"Heiliges Römisches Reich" -> "Römisch-deutscher Kaiser";
+	"Römisch-deutscher Kaiser" -> "Heiliges Römisches Reich";
+}
+strict digraph cluster_5 {
+	Kampfsport -> "Liste der Kampfsportarten";
+	"Liste der Kampfsportarten" -> Kampfkunst;
+	Kampfkunst -> Kampfsport;
+}
+strict digraph cluster_6 {
+	Ordensgemeinschaft -> Ordensregel;
+	Ordensregel -> Ordensgemeinschaft;
+}
+strict digraph cluster_7 {
+	Briefmarke -> Postwertzeichen;
+	Postwertzeichen -> Briefmarke;
+}
+strict digraph cluster_8 {
+	Kosmologie -> "Struktur des Kosmos";
+	"Struktur des Kosmos" -> Universum;
+	Universum -> "Beobachtbares Universum";
+	"Beobachtbares Universum" -> "Lambda-CDM-Modell";
+	"Lambda-CDM-Modell" -> Kosmologie;
+}
+digraph scc_map {
+	cluster_0;
+	cluster_1;
+	cluster_2;
+	cluster_3;
+	cluster_4;
+	cluster_5;
+	cluster_6;
+	cluster_7;
+	cluster_8;
+}
