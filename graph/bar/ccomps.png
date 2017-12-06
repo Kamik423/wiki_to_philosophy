@@ -1,0 +1,292 @@
+strict digraph "" {
+	subgraph _cc_0 {
+		"Angolanische Provinzn" -> Angola;
+		Angola -> Afrika;
+		Afrika -> Asien;
+		Asien -> Eadn;
+		Eadn -> Sun;
+		Sun -> Stern;
+		Stern -> Schwaakroft;
+		Schwaakroft -> Grundkroft;
+		Grundkroft -> Standarddeitsch;
+		Standarddeitsch -> "Deitsche Sproch";
+		"Deitsche Sproch" -> "Westgermanische Sprachen";
+		"Westgermanische Sprachen" -> "Germanische Sprachen";
+		"Germanische Sprachen" -> "Indogermanische Sprochn";
+		"Indogermanische Sprochn" -> Flexion;
+		Flexion -> Grammatik;
+		Grammatik -> Orthografie;
+		Orthografie -> Alphabet;
+		Alphabet -> "Phönizisches Alphabet";
+		"Phönizisches Alphabet" -> Libanon;
+		Libanon -> Mittelmeer;
+		Mittelmeer -> Eiropa;
+		Eiropa -> Asien;
+		"31 v. Kr." -> Joar;
+		Joar -> Eadn;
+		"Timbuktu (Musika)" -> 1975;
+		1975 -> Joar;
+		"Balkan welaýaty" -> Turkmenistan;
+		Turkmenistan -> Stoot;
+		Stoot -> Eiropa;
+		"State Parks in New York" -> "New York (Bundesstaat)";
+		"New York (Bundesstaat)" -> Bundesstoot;
+		Bundesstoot -> Deitschland;
+		Deitschland -> Middleiropa;
+		Middleiropa -> Eiropa;
+		"Wake (Begriffsklearung)" -> Wake;
+		Wake -> Atoll;
+		Atoll -> Lagune;
+		Lagune -> Latein;
+		Latein -> Sproch;
+		Sproch -> Boarisch;
+		Boarisch -> "Deitsche Sproch";
+		"912 v. Kr." -> Joar;
+		"ISO 3166-2:GA" -> "ISO 3166-2";
+		"ISO 3166-2" -> Stoot;
+		2007 -> Joar;
+		"Stootsfiahra 1126" -> Egyptn;
+		Egyptn -> Afrika;
+		"Krasnoje Selo" -> Russland;
+		Russland -> Eiropa;
+		Druento -> Italien;
+		Italien -> Europa;
+		Europa -> Asien;
+		"Piła (Begriffsklearung)" -> Poin;
+		Poin -> Middleiropa;
+		"Colorado County, Texas" -> County;
+		County -> Englisch;
+		Englisch -> "Westgermanische Sprochn";
+		"Westgermanische Sprochn" -> "Germanische Sprachen";
+		Osric -> Northumbria;
+		Northumbria -> England;
+		England -> "Vereinigtes Königreich";
+		"Vereinigtes Königreich" -> Eiropa;
+		"Buagn- und Schlossmuseen- OÖ" -> Owaöstareich;
+		Owaöstareich -> Östareich;
+		Östareich -> Eiropa;
+		"Gasse (Schöllkrippen)" -> 1811;
+		1811 -> Joar;
+		Råde -> Norwegn;
+		Norwegn -> Skandinavien;
+		Skandinavien -> Eiropa;
+		"Castro County, Texas" -> County;
+		"416 v. Kr." -> Joar;
+		"A.E.I.O.U." -> Habsburg;
+		Habsburg -> Schweiz;
+		Schweiz -> Europa;
+		Iran -> Stoot;
+		Gütlershof -> Ortstei;
+		Ortstei -> Kuitua;
+		Kuitua -> Wissn;
+		Wissn -> Vaschwearungstheorie;
+		Vaschwearungstheorie -> Vahoidn;
+		Vahoidn -> Mensch;
+		Mensch -> Spoviech;
+		Spoviech -> Standarddeitsch;
+		"Liste der Staatsoberhäupter 1468" -> Ägypten;
+		Ägypten -> Afrika;
+		Noemi -> Italien;
+		"1998 WW31" -> "Transneptunisches Objekt";
+		"Transneptunisches Objekt" -> "Neptun (Planet)";
+		"Neptun (Planet)" -> Sun;
+		Suschi -> Japan;
+		Japan -> Indonesien;
+		Indonesien -> Niederlande;
+		Niederlande -> Nordsee;
+		Nordsee -> Meea;
+		Meea -> Wossa;
+		Wossa -> Periodnsystem;
+		Periodnsystem -> "Elektronischs Energiniveau";
+		"Elektronischs Energiniveau" -> Elektron;
+		Elektron -> Atom;
+		Atom -> Kemie;
+		Kemie -> Wissnschaft;
+		Wissnschaft -> Wissn;
+		1933 -> Joar;
+		"ISO 3166-2:SZ" -> "ISO 3166-2";
+		"Gerald Jatzek" -> Östareich;
+		Ghiffa -> Italien;
+		"Klassisches Latein" -> Latein;
+		Herkulestauweak -> Fiisch;
+		Fiisch -> Wossa;
+		"Erath County, Texas" -> County;
+		Ojibwe -> Indiana;
+		Indiana -> Eiropa;
+		Informationstheorie -> Mathematik;
+		Mathematik -> Wissenschaft;
+		Wissenschaft -> Wissn;
+		"Legio X Gemina" -> "Legio XV Apollinaris";
+		"Legio XV Apollinaris" -> "Legio I Noricorum";
+		"Legio I Noricorum" -> Noricum;
+		Noricum -> Kelten;
+		Kelten -> Eiropa;
+		"Neubauer Forst-Nord" -> Km²;
+		Km² -> Flächn;
+		Flächn -> Läng;
+		Läng -> Liacht;
+		Liacht -> Mensch;
+		"Newton County, Texas" -> County;
+		491 -> Joar;
+		"Neustädtlein (Dinkelsbühl)" -> Ortstei;
+		"Stootsfiahra 56" -> "Remisches Reich";
+		"Remisches Reich" -> "Lateinische Sprache";
+		"Lateinische Sprache" -> Sproch;
+		Mariastoa -> "Bezirk Kufstoa";
+		"Bezirk Kufstoa" -> Östarreich;
+		Östarreich -> Eiropa;
+		Marktl -> Altötting;
+		Altötting -> Kroasstod;
+		Kroasstod -> Stod;
+		Stod -> Meea;
+		Risøyhamn -> Norwegn;
+		"Boarische Voiksdanz" -> "Bairische Sprache";
+		"Bairische Sprache" -> "Deitsche Sproch";
+		"Hafenlohr (Fluss)" -> Main;
+		Main -> Rhein;
+		Rhein -> Middleiropa;
+		"SNP (Begriffsklearung)" -> "Scottish National Party";
+		"Scottish National Party" -> Schottland;
+		Schottland -> Eiropa;
+		Moashofn -> Gemeinde;
+		Gemeinde -> Stoot;
+		Schlernhexn -> Schlern;
+		Schlern -> Bozn;
+		Bozn -> Sidtiroul;
+		Sidtiroul -> "Treant (Provinz)";
+		"Treant (Provinz)" -> Italien;
+		"2. Buach der Makkabäa" -> "Oids Testament";
+		"Oids Testament" -> Judndum;
+		Judndum -> Kuitua;
+		716 -> Joar;
+		"Keilberg (Bessenbach)" -> Ortstei;
+		Måløy -> Fylke;
+		Fylke -> Norwegn;
+		"Armstrong County, Pennsylvania" -> Pennsylvania;
+		Pennsylvania -> Bundesstoot;
+		Chiny -> Bejgien;
+		Bejgien -> Eiropa;
+		Neukolbing -> Ortstei;
+		"Schönau (Inchenhofen)" -> Ortstei;
+		Hoachapeißaberg -> Gmoa;
+		Gmoa -> Stoot;
+		Gepe -> Hittn;
+		Hittn -> Boarisch;
+		939 -> Joar;
+		Brunnfloßgraben -> Elsava;
+		Elsava -> Main;
+	}
+	subgraph _cc_1 {
+		"A.geh Wirklich?";
+	}
+	subgraph _cc_2 {
+		"Michael von Faulhaber" -> Bischof;
+		Bischof -> Kristndum;
+		Kristndum -> Islam;
+		Islam -> Kristndum;
+		Sanskrit -> Hinduismus;
+		Hinduismus -> Religion;
+		Religion -> Kristndum;
+	}
+	subgraph _cc_3 {
+		Paramore -> USA;
+		USA -> Noadamerika;
+		Noadamerika -> Amerika;
+		Amerika -> Nordamerika;
+		Nordamerika -> Amerika;
+		"McDowell County (Begriffsklearung)" -> "Vereinigte Staaten";
+		"Vereinigte Staaten" -> Noadamerika;
+		"Stootsfiahra 646" -> Amerika;
+		"Clay County, Georgia" -> Georgia;
+		Georgia -> "Listn vo de Bundesstootn";
+		"Listn vo de Bundesstootn" -> USA;
+		"Adams County, Nebraska" -> Nebraska;
+		Nebraska -> "Listn vo de Bundesstootn";
+		"U.S. Smokeless Tobacco Company" -> "Richmond (Virginia)";
+		"Richmond (Virginia)" -> Virginia;
+		Virginia -> USA;
+		"Stootsfiahra 589" -> Amerika;
+		"Madison County, Illinois" -> Illinois;
+		Illinois -> USA;
+		"Rutherford County, North Carolina" -> "North Carolina";
+		"North Carolina" -> "Bundesstaat der Vereinigten Staaten";
+		"Bundesstaat der Vereinigten Staaten" -> USA;
+		"Woodward County, Oklahoma" -> Oklahoma;
+		Oklahoma -> USA;
+		"Smith County, Tennessee" -> Tennessee;
+		Tennessee -> "Listn vo de Bundesstootn";
+		"Brown County, Wisconsin" -> Wisconsin;
+		Wisconsin -> "Listn vo de Bundesstootn";
+		"Stootsfiahra 333" -> Amerika;
+		"Clayton County" -> "Vereinigte Staaten";
+		"Covington County, Mississippi" -> "Mississippi (Bundesstoot)";
+		"Mississippi (Bundesstoot)" -> "Listn vo de Bundesstootn";
+		"Johnson County, Wyoming" -> Wyoming;
+		Wyoming -> "Vaeinigte Stootn";
+		"Vaeinigte Stootn" -> Noadamerika;
+	}
+	subgraph _cc_4 {
+		Moafuxa -> Moastoa;
+		Moastoa -> Moafuxa;
+	}
+	subgraph _cc_5 {
+		Eswars -> Frankreich;
+		Frankreich -> Demokratie;
+		Demokratie -> Politik;
+		Politik -> "Spezial:ISBN-Suche/3934730493";
+		"Kanton Sabarthès" -> Frankreich;
+	}
+	subgraph _cc_6 {
+		Breviksbrua -> Bruck;
+		Bruck -> Minga;
+		Minga -> Bayern;
+		Bayern -> Freistoot;
+		Freistoot -> Republik;
+		Republik -> Monarchie;
+		Monarchie -> Regierungsform;
+		Regierungsform -> Republik;
+		"Cristian Panin" -> Rumänien;
+		Rumänien -> Republik;
+		Rotkopf -> "Rotkopf (Mangfallgebirge)";
+		"Rotkopf (Mangfallgebirge)" -> Bayern;
+		"Hammerbach (Herzogenaurach)" -> Bayern;
+		"Markus Wasmeier Bauernhof- und Wintersportmuseum" -> Oberbayern;
+		Oberbayern -> Bayern;
+		"Prahova (Fluss)" -> Rumänien;
+		"Stefan Dettl" -> Bayern;
+		Schwanthalahäh -> Minga;
+		Pappenham -> Middlfrankn;
+		Middlfrankn -> Regiarungsbeziak;
+		Regiarungsbeziak -> Bayern;
+	}
+	subgraph _cc_7 {
+		"Eisnkappl-Vellach" -> "Slowenische Sprache";
+		"Slowenische Sprache" -> Krowodisch;
+		Krowodisch -> "Krowodisch (Begriffsklearung)";
+	}
+	subgraph _cc_8 {
+		Feadamiddl;
+	}
+	subgraph _cc_9 {
+		"Landgreis Haßberge" -> Landkroas;
+		Landkroas -> Feiawehr;
+		Feiawehr -> Viech;
+		Viech -> Pflanzna;
+		Pflanzna -> "Domäne (Biologie)";
+		"Domäne (Biologie)" -> "Systematik (Biologie)";
+		"Systematik (Biologie)" -> Biologie;
+		Biologie -> Viecha;
+		Viecha -> Pflanzna;
+		Gwiaz -> Soot;
+		Soot -> Pflanzna;
+	}
+	subgraph _cc_10 {
+		"Mombasa Island";
+	}
+	subgraph _cc_11 {
+		Lambach;
+	}
+	subgraph _cc_12 {
+		Raftsund;
+	}
+}

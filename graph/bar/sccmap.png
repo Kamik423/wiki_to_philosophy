@@ -1,0 +1,53 @@
+strict digraph cluster_0 {
+	Asien -> Eadn;
+	Eadn -> Sun;
+	Sun -> Stern;
+	Stern -> Schwaakroft;
+	Schwaakroft -> Grundkroft;
+	Grundkroft -> Standarddeitsch;
+	Standarddeitsch -> "Deitsche Sproch";
+	"Deitsche Sproch" -> "Westgermanische Sprachen";
+	"Westgermanische Sprachen" -> "Germanische Sprachen";
+	"Germanische Sprachen" -> "Indogermanische Sprochn";
+	"Indogermanische Sprochn" -> Flexion;
+	Flexion -> Grammatik;
+	Grammatik -> Orthografie;
+	Orthografie -> Alphabet;
+	Alphabet -> "Phönizisches Alphabet";
+	"Phönizisches Alphabet" -> Libanon;
+	Libanon -> Mittelmeer;
+	Mittelmeer -> Eiropa;
+	Eiropa -> Asien;
+}
+strict digraph cluster_1 {
+	Kristndum -> Islam;
+	Islam -> Kristndum;
+}
+strict digraph cluster_2 {
+	Amerika -> Nordamerika;
+	Nordamerika -> Amerika;
+}
+strict digraph cluster_3 {
+	Moafuxa -> Moastoa;
+	Moastoa -> Moafuxa;
+}
+strict digraph cluster_4 {
+	Republik -> Monarchie;
+	Monarchie -> Regierungsform;
+	Regierungsform -> Republik;
+}
+strict digraph cluster_5 {
+	Pflanzna -> "Domäne (Biologie)";
+	"Domäne (Biologie)" -> "Systematik (Biologie)";
+	"Systematik (Biologie)" -> Biologie;
+	Biologie -> Viecha;
+	Viecha -> Pflanzna;
+}
+digraph scc_map {
+	cluster_0;
+	cluster_1;
+	cluster_2;
+	cluster_3;
+	cluster_4;
+	cluster_5;
+}

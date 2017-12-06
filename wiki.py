@@ -18,7 +18,7 @@ import networkx as nx
 
 
 # define constants
-file_name = 'graph.json'
+file_name = 'graph/{}/graph.json'
 
 rel_link_root = '/wiki/'
 url_root = 'https://{}.wikipedia.org'
@@ -54,6 +54,7 @@ def load_graph():
 def save_graph(G):
     """Saves graph to file.
     """
+    os.makedirs('graph/{}'.format(locale), exist_ok=True)
     fh = open(file_name, 'w')
     fh.write(json.dumps(nx.node_link_data(G), indent=4))
     fh.close()
@@ -85,7 +86,10 @@ def get_next_link(link):
     source = requests.get(url(link)).text
     soup = bs4.BeautifulSoup(source, 'html.parser')
     # get only body
-    content = ''.join([str(c) for c in soup.find_all('div', class_='mw-parser-output')[0].contents])
+    parser_output = soup.find_all('div', class_='mw-parser-output')
+    content = ''
+    if parser_output != []:
+        content = ''.join([str(c) for c in parser_output[0].contents])
     source = str(content)
     # remove external links
     source = re.sub(external_link_match, '', source)
@@ -166,11 +170,16 @@ def trace(page):
         further_steps = 0
         search_stack = []
         search_head = current_page
+        end_mode = 'loop'
         while search_head not in search_stack:
             search_stack.append(search_head)
             further_steps += 1
-            search_head = list(G.successors(search_head))[0]
-        print('- {:02d} further steps to loop; {:02d} in total'.format(further_steps, further_steps + len(page_stack)))
+            if len(list(G.successors(search_head))) > 0:
+                search_head = list(G.successors(search_head))[0]
+            else:
+                end_mode = 'dead end'
+                break
+        print('- {:02d} further steps to {}; {:02d} in total'.format(further_steps, end_mode, further_steps + len(page_stack)))
     if save > 1:
         save_graph(G)
 
@@ -203,10 +212,12 @@ roots = args.root
 # locale
 url_root = url_root.format(locale)
 random_page_search_url = random_page_search_url.format(locale)
+file_name = file_name.format(locale)
 
 # argument dependent imports
-if graph:
+if graph or save:
     import os
+if graph:
     from networkx.drawing.nx_agraph import to_agraph
 if time_:
     import time

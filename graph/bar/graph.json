@@ -1,0 +1,1843 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Angolanische Provinzn"
+        },
+        {
+            "id": "Angola"
+        },
+        {
+            "id": "Afrika"
+        },
+        {
+            "id": "Asien"
+        },
+        {
+            "id": "Eadn"
+        },
+        {
+            "id": "Sun"
+        },
+        {
+            "id": "Stern"
+        },
+        {
+            "id": "Schwaakroft"
+        },
+        {
+            "id": "Grundkroft"
+        },
+        {
+            "id": "Standarddeitsch"
+        },
+        {
+            "id": "Deitsche Sproch"
+        },
+        {
+            "id": "Westgermanische Sprachen"
+        },
+        {
+            "id": "Germanische Sprachen"
+        },
+        {
+            "id": "Indogermanische Sprochn"
+        },
+        {
+            "id": "Flexion"
+        },
+        {
+            "id": "Grammatik"
+        },
+        {
+            "id": "Orthografie"
+        },
+        {
+            "id": "Alphabet"
+        },
+        {
+            "id": "Ph\u00f6nizisches Alphabet"
+        },
+        {
+            "id": "Libanon"
+        },
+        {
+            "id": "Mittelmeer"
+        },
+        {
+            "id": "Eiropa"
+        },
+        {
+            "id": "31 v. Kr."
+        },
+        {
+            "id": "Joar"
+        },
+        {
+            "id": "A.geh Wirklich?"
+        },
+        {
+            "id": "Timbuktu (Musika)"
+        },
+        {
+            "id": "1975"
+        },
+        {
+            "id": "Balkan wela\u00fdaty"
+        },
+        {
+            "id": "Turkmenistan"
+        },
+        {
+            "id": "Stoot"
+        },
+        {
+            "id": "State Parks in New York"
+        },
+        {
+            "id": "New York (Bundesstaat)"
+        },
+        {
+            "id": "Bundesstoot"
+        },
+        {
+            "id": "Deitschland"
+        },
+        {
+            "id": "Middleiropa"
+        },
+        {
+            "id": "Wake (Begriffsklearung)"
+        },
+        {
+            "id": "Wake"
+        },
+        {
+            "id": "Atoll"
+        },
+        {
+            "id": "Lagune"
+        },
+        {
+            "id": "Latein"
+        },
+        {
+            "id": "Sproch"
+        },
+        {
+            "id": "Boarisch"
+        },
+        {
+            "id": "912 v. Kr."
+        },
+        {
+            "id": "ISO 3166-2:GA"
+        },
+        {
+            "id": "ISO 3166-2"
+        },
+        {
+            "id": "Michael von Faulhaber"
+        },
+        {
+            "id": "Bischof"
+        },
+        {
+            "id": "Kristndum"
+        },
+        {
+            "id": "Islam"
+        },
+        {
+            "id": "2007"
+        },
+        {
+            "id": "Stootsfiahra 1126"
+        },
+        {
+            "id": "Egyptn"
+        },
+        {
+            "id": "Krasnoje Selo"
+        },
+        {
+            "id": "Russland"
+        },
+        {
+            "id": "Druento"
+        },
+        {
+            "id": "Italien"
+        },
+        {
+            "id": "Europa"
+        },
+        {
+            "id": "Paramore"
+        },
+        {
+            "id": "USA"
+        },
+        {
+            "id": "Noadamerika"
+        },
+        {
+            "id": "Amerika"
+        },
+        {
+            "id": "Nordamerika"
+        },
+        {
+            "id": "Moafuxa"
+        },
+        {
+            "id": "Moastoa"
+        },
+        {
+            "id": "Eswars"
+        },
+        {
+            "id": "Frankreich"
+        },
+        {
+            "id": "Demokratie"
+        },
+        {
+            "id": "Politik"
+        },
+        {
+            "id": "Spezial:ISBN-Suche/3934730493"
+        },
+        {
+            "id": "Breviksbrua"
+        },
+        {
+            "id": "Bruck"
+        },
+        {
+            "id": "Minga"
+        },
+        {
+            "id": "Bayern"
+        },
+        {
+            "id": "Freistoot"
+        },
+        {
+            "id": "Republik"
+        },
+        {
+            "id": "Monarchie"
+        },
+        {
+            "id": "Regierungsform"
+        },
+        {
+            "id": "Pi\u0142a (Begriffsklearung)"
+        },
+        {
+            "id": "Poin"
+        },
+        {
+            "id": "Colorado County, Texas"
+        },
+        {
+            "id": "County"
+        },
+        {
+            "id": "Englisch"
+        },
+        {
+            "id": "Westgermanische Sprochn"
+        },
+        {
+            "id": "Eisnkappl-Vellach"
+        },
+        {
+            "id": "Slowenische Sprache"
+        },
+        {
+            "id": "Krowodisch"
+        },
+        {
+            "id": "Krowodisch (Begriffsklearung)"
+        },
+        {
+            "id": "McDowell County (Begriffsklearung)"
+        },
+        {
+            "id": "Vereinigte Staaten"
+        },
+        {
+            "id": "Cristian Panin"
+        },
+        {
+            "id": "Rum\u00e4nien"
+        },
+        {
+            "id": "Osric"
+        },
+        {
+            "id": "Northumbria"
+        },
+        {
+            "id": "England"
+        },
+        {
+            "id": "Vereinigtes K\u00f6nigreich"
+        },
+        {
+            "id": "Buagn- und Schlossmuseen- O\u00d6"
+        },
+        {
+            "id": "Owa\u00f6stareich"
+        },
+        {
+            "id": "\u00d6stareich"
+        },
+        {
+            "id": "Stootsfiahra 646"
+        },
+        {
+            "id": "Gasse (Sch\u00f6llkrippen)"
+        },
+        {
+            "id": "1811"
+        },
+        {
+            "id": "R\u00e5de"
+        },
+        {
+            "id": "Norwegn"
+        },
+        {
+            "id": "Skandinavien"
+        },
+        {
+            "id": "Rotkopf"
+        },
+        {
+            "id": "Rotkopf (Mangfallgebirge)"
+        },
+        {
+            "id": "Kanton Sabarth\u00e8s"
+        },
+        {
+            "id": "Clay County, Georgia"
+        },
+        {
+            "id": "Georgia"
+        },
+        {
+            "id": "Listn vo de Bundesstootn"
+        },
+        {
+            "id": "Castro County, Texas"
+        },
+        {
+            "id": "416 v. Kr."
+        },
+        {
+            "id": "A.E.I.O.U."
+        },
+        {
+            "id": "Habsburg"
+        },
+        {
+            "id": "Schweiz"
+        },
+        {
+            "id": "Iran"
+        },
+        {
+            "id": "Adams County, Nebraska"
+        },
+        {
+            "id": "Nebraska"
+        },
+        {
+            "id": "G\u00fctlershof"
+        },
+        {
+            "id": "Ortstei"
+        },
+        {
+            "id": "Kuitua"
+        },
+        {
+            "id": "Wissn"
+        },
+        {
+            "id": "Vaschwearungstheorie"
+        },
+        {
+            "id": "Vahoidn"
+        },
+        {
+            "id": "Mensch"
+        },
+        {
+            "id": "Spoviech"
+        },
+        {
+            "id": "Liste der Staatsoberh\u00e4upter 1468"
+        },
+        {
+            "id": "\u00c4gypten"
+        },
+        {
+            "id": "Noemi"
+        },
+        {
+            "id": "Hammerbach (Herzogenaurach)"
+        },
+        {
+            "id": "Feadamiddl"
+        },
+        {
+            "id": "1998 WW31"
+        },
+        {
+            "id": "Transneptunisches Objekt"
+        },
+        {
+            "id": "Neptun (Planet)"
+        },
+        {
+            "id": "Suschi"
+        },
+        {
+            "id": "Japan"
+        },
+        {
+            "id": "Indonesien"
+        },
+        {
+            "id": "Niederlande"
+        },
+        {
+            "id": "Nordsee"
+        },
+        {
+            "id": "Meea"
+        },
+        {
+            "id": "Wossa"
+        },
+        {
+            "id": "Periodnsystem"
+        },
+        {
+            "id": "Elektronischs Energiniveau"
+        },
+        {
+            "id": "Elektron"
+        },
+        {
+            "id": "Atom"
+        },
+        {
+            "id": "Kemie"
+        },
+        {
+            "id": "Wissnschaft"
+        },
+        {
+            "id": "U.S. Smokeless Tobacco Company"
+        },
+        {
+            "id": "Richmond (Virginia)"
+        },
+        {
+            "id": "Virginia"
+        },
+        {
+            "id": "Landgreis Ha\u00dfberge"
+        },
+        {
+            "id": "Landkroas"
+        },
+        {
+            "id": "Feiawehr"
+        },
+        {
+            "id": "Viech"
+        },
+        {
+            "id": "Pflanzna"
+        },
+        {
+            "id": "Dom\u00e4ne (Biologie)"
+        },
+        {
+            "id": "Systematik (Biologie)"
+        },
+        {
+            "id": "Biologie"
+        },
+        {
+            "id": "Viecha"
+        },
+        {
+            "id": "Mombasa Island"
+        },
+        {
+            "id": "Markus Wasmeier Bauernhof- und Wintersportmuseum"
+        },
+        {
+            "id": "Oberbayern"
+        },
+        {
+            "id": "1933"
+        },
+        {
+            "id": "ISO 3166-2:SZ"
+        },
+        {
+            "id": "Gerald Jatzek"
+        },
+        {
+            "id": "Ghiffa"
+        },
+        {
+            "id": "Klassisches Latein"
+        },
+        {
+            "id": "Stootsfiahra 589"
+        },
+        {
+            "id": "Herkulestauweak"
+        },
+        {
+            "id": "Fiisch"
+        },
+        {
+            "id": "Erath County, Texas"
+        },
+        {
+            "id": "Ojibwe"
+        },
+        {
+            "id": "Indiana"
+        },
+        {
+            "id": "Informationstheorie"
+        },
+        {
+            "id": "Mathematik"
+        },
+        {
+            "id": "Wissenschaft"
+        },
+        {
+            "id": "Madison County, Illinois"
+        },
+        {
+            "id": "Illinois"
+        },
+        {
+            "id": "Legio X Gemina"
+        },
+        {
+            "id": "Legio XV Apollinaris"
+        },
+        {
+            "id": "Legio I Noricorum"
+        },
+        {
+            "id": "Noricum"
+        },
+        {
+            "id": "Kelten"
+        },
+        {
+            "id": "Lambach"
+        },
+        {
+            "id": "Neubauer Forst-Nord"
+        },
+        {
+            "id": "Km\u00b2"
+        },
+        {
+            "id": "Fl\u00e4chn"
+        },
+        {
+            "id": "L\u00e4ng"
+        },
+        {
+            "id": "Liacht"
+        },
+        {
+            "id": "Newton County, Texas"
+        },
+        {
+            "id": "Gwiaz"
+        },
+        {
+            "id": "Soot"
+        },
+        {
+            "id": "Rutherford County, North Carolina"
+        },
+        {
+            "id": "North Carolina"
+        },
+        {
+            "id": "Bundesstaat der Vereinigten Staaten"
+        },
+        {
+            "id": "491"
+        },
+        {
+            "id": "Raftsund"
+        },
+        {
+            "id": "Neust\u00e4dtlein (Dinkelsb\u00fchl)"
+        },
+        {
+            "id": "Stootsfiahra 56"
+        },
+        {
+            "id": "Remisches Reich"
+        },
+        {
+            "id": "Lateinische Sprache"
+        },
+        {
+            "id": "Prahova (Fluss)"
+        },
+        {
+            "id": "Mariastoa"
+        },
+        {
+            "id": "Bezirk Kufstoa"
+        },
+        {
+            "id": "\u00d6starreich"
+        },
+        {
+            "id": "Marktl"
+        },
+        {
+            "id": "Alt\u00f6tting"
+        },
+        {
+            "id": "Kroasstod"
+        },
+        {
+            "id": "Stod"
+        },
+        {
+            "id": "Ris\u00f8yhamn"
+        },
+        {
+            "id": "Stefan Dettl"
+        },
+        {
+            "id": "Boarische Voiksdanz"
+        },
+        {
+            "id": "Bairische Sprache"
+        },
+        {
+            "id": "Hafenlohr (Fluss)"
+        },
+        {
+            "id": "Main"
+        },
+        {
+            "id": "Rhein"
+        },
+        {
+            "id": "SNP (Begriffsklearung)"
+        },
+        {
+            "id": "Scottish National Party"
+        },
+        {
+            "id": "Schottland"
+        },
+        {
+            "id": "Woodward County, Oklahoma"
+        },
+        {
+            "id": "Oklahoma"
+        },
+        {
+            "id": "Schwanthalah\u00e4h"
+        },
+        {
+            "id": "Smith County, Tennessee"
+        },
+        {
+            "id": "Tennessee"
+        },
+        {
+            "id": "Moashofn"
+        },
+        {
+            "id": "Gemeinde"
+        },
+        {
+            "id": "Schlernhexn"
+        },
+        {
+            "id": "Schlern"
+        },
+        {
+            "id": "Bozn"
+        },
+        {
+            "id": "Sidtiroul"
+        },
+        {
+            "id": "Treant (Provinz)"
+        },
+        {
+            "id": "2. Buach der Makkab\u00e4a"
+        },
+        {
+            "id": "Oids Testament"
+        },
+        {
+            "id": "Judndum"
+        },
+        {
+            "id": "Brown County, Wisconsin"
+        },
+        {
+            "id": "Wisconsin"
+        },
+        {
+            "id": "716"
+        },
+        {
+            "id": "Keilberg (Bessenbach)"
+        },
+        {
+            "id": "Stootsfiahra 333"
+        },
+        {
+            "id": "Clayton County"
+        },
+        {
+            "id": "M\u00e5l\u00f8y"
+        },
+        {
+            "id": "Fylke"
+        },
+        {
+            "id": "Armstrong County, Pennsylvania"
+        },
+        {
+            "id": "Pennsylvania"
+        },
+        {
+            "id": "Chiny"
+        },
+        {
+            "id": "Bejgien"
+        },
+        {
+            "id": "Sanskrit"
+        },
+        {
+            "id": "Hinduismus"
+        },
+        {
+            "id": "Religion"
+        },
+        {
+            "id": "Neukolbing"
+        },
+        {
+            "id": "Sch\u00f6nau (Inchenhofen)"
+        },
+        {
+            "id": "Hoachapei\u00dfaberg"
+        },
+        {
+            "id": "Gmoa"
+        },
+        {
+            "id": "Pappenham"
+        },
+        {
+            "id": "Middlfrankn"
+        },
+        {
+            "id": "Regiarungsbeziak"
+        },
+        {
+            "id": "Covington County, Mississippi"
+        },
+        {
+            "id": "Mississippi (Bundesstoot)"
+        },
+        {
+            "id": "Gepe"
+        },
+        {
+            "id": "Hittn"
+        },
+        {
+            "id": "939"
+        },
+        {
+            "id": "Johnson County, Wyoming"
+        },
+        {
+            "id": "Wyoming"
+        },
+        {
+            "id": "Vaeinigte Stootn"
+        },
+        {
+            "id": "Brunnflo\u00dfgraben"
+        },
+        {
+            "id": "Elsava"
+        }
+    ],
+    "links": [
+        {
+            "source": "Angolanische Provinzn",
+            "target": "Angola"
+        },
+        {
+            "source": "Angola",
+            "target": "Afrika"
+        },
+        {
+            "source": "Afrika",
+            "target": "Asien"
+        },
+        {
+            "source": "Asien",
+            "target": "Eadn"
+        },
+        {
+            "source": "Eadn",
+            "target": "Sun"
+        },
+        {
+            "source": "Sun",
+            "target": "Stern"
+        },
+        {
+            "source": "Stern",
+            "target": "Schwaakroft"
+        },
+        {
+            "source": "Schwaakroft",
+            "target": "Grundkroft"
+        },
+        {
+            "source": "Grundkroft",
+            "target": "Standarddeitsch"
+        },
+        {
+            "source": "Standarddeitsch",
+            "target": "Deitsche Sproch"
+        },
+        {
+            "source": "Deitsche Sproch",
+            "target": "Westgermanische Sprachen"
+        },
+        {
+            "source": "Westgermanische Sprachen",
+            "target": "Germanische Sprachen"
+        },
+        {
+            "source": "Germanische Sprachen",
+            "target": "Indogermanische Sprochn"
+        },
+        {
+            "source": "Indogermanische Sprochn",
+            "target": "Flexion"
+        },
+        {
+            "source": "Flexion",
+            "target": "Grammatik"
+        },
+        {
+            "source": "Grammatik",
+            "target": "Orthografie"
+        },
+        {
+            "source": "Orthografie",
+            "target": "Alphabet"
+        },
+        {
+            "source": "Alphabet",
+            "target": "Ph\u00f6nizisches Alphabet"
+        },
+        {
+            "source": "Ph\u00f6nizisches Alphabet",
+            "target": "Libanon"
+        },
+        {
+            "source": "Libanon",
+            "target": "Mittelmeer"
+        },
+        {
+            "source": "Mittelmeer",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Eiropa",
+            "target": "Asien"
+        },
+        {
+            "source": "31 v. Kr.",
+            "target": "Joar"
+        },
+        {
+            "source": "Joar",
+            "target": "Eadn"
+        },
+        {
+            "source": "Timbuktu (Musika)",
+            "target": "1975"
+        },
+        {
+            "source": "1975",
+            "target": "Joar"
+        },
+        {
+            "source": "Balkan wela\u00fdaty",
+            "target": "Turkmenistan"
+        },
+        {
+            "source": "Turkmenistan",
+            "target": "Stoot"
+        },
+        {
+            "source": "Stoot",
+            "target": "Eiropa"
+        },
+        {
+            "source": "State Parks in New York",
+            "target": "New York (Bundesstaat)"
+        },
+        {
+            "source": "New York (Bundesstaat)",
+            "target": "Bundesstoot"
+        },
+        {
+            "source": "Bundesstoot",
+            "target": "Deitschland"
+        },
+        {
+            "source": "Deitschland",
+            "target": "Middleiropa"
+        },
+        {
+            "source": "Middleiropa",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Wake (Begriffsklearung)",
+            "target": "Wake"
+        },
+        {
+            "source": "Wake",
+            "target": "Atoll"
+        },
+        {
+            "source": "Atoll",
+            "target": "Lagune"
+        },
+        {
+            "source": "Lagune",
+            "target": "Latein"
+        },
+        {
+            "source": "Latein",
+            "target": "Sproch"
+        },
+        {
+            "source": "Sproch",
+            "target": "Boarisch"
+        },
+        {
+            "source": "Boarisch",
+            "target": "Deitsche Sproch"
+        },
+        {
+            "source": "912 v. Kr.",
+            "target": "Joar"
+        },
+        {
+            "source": "ISO 3166-2:GA",
+            "target": "ISO 3166-2"
+        },
+        {
+            "source": "ISO 3166-2",
+            "target": "Stoot"
+        },
+        {
+            "source": "Michael von Faulhaber",
+            "target": "Bischof"
+        },
+        {
+            "source": "Bischof",
+            "target": "Kristndum"
+        },
+        {
+            "source": "Kristndum",
+            "target": "Islam"
+        },
+        {
+            "source": "Islam",
+            "target": "Kristndum"
+        },
+        {
+            "source": "2007",
+            "target": "Joar"
+        },
+        {
+            "source": "Stootsfiahra 1126",
+            "target": "Egyptn"
+        },
+        {
+            "source": "Egyptn",
+            "target": "Afrika"
+        },
+        {
+            "source": "Krasnoje Selo",
+            "target": "Russland"
+        },
+        {
+            "source": "Russland",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Druento",
+            "target": "Italien"
+        },
+        {
+            "source": "Italien",
+            "target": "Europa"
+        },
+        {
+            "source": "Europa",
+            "target": "Asien"
+        },
+        {
+            "source": "Paramore",
+            "target": "USA"
+        },
+        {
+            "source": "USA",
+            "target": "Noadamerika"
+        },
+        {
+            "source": "Noadamerika",
+            "target": "Amerika"
+        },
+        {
+            "source": "Amerika",
+            "target": "Nordamerika"
+        },
+        {
+            "source": "Nordamerika",
+            "target": "Amerika"
+        },
+        {
+            "source": "Moafuxa",
+            "target": "Moastoa"
+        },
+        {
+            "source": "Moastoa",
+            "target": "Moafuxa"
+        },
+        {
+            "source": "Eswars",
+            "target": "Frankreich"
+        },
+        {
+            "source": "Frankreich",
+            "target": "Demokratie"
+        },
+        {
+            "source": "Demokratie",
+            "target": "Politik"
+        },
+        {
+            "source": "Politik",
+            "target": "Spezial:ISBN-Suche/3934730493"
+        },
+        {
+            "source": "Breviksbrua",
+            "target": "Bruck"
+        },
+        {
+            "source": "Bruck",
+            "target": "Minga"
+        },
+        {
+            "source": "Minga",
+            "target": "Bayern"
+        },
+        {
+            "source": "Bayern",
+            "target": "Freistoot"
+        },
+        {
+            "source": "Freistoot",
+            "target": "Republik"
+        },
+        {
+            "source": "Republik",
+            "target": "Monarchie"
+        },
+        {
+            "source": "Monarchie",
+            "target": "Regierungsform"
+        },
+        {
+            "source": "Regierungsform",
+            "target": "Republik"
+        },
+        {
+            "source": "Pi\u0142a (Begriffsklearung)",
+            "target": "Poin"
+        },
+        {
+            "source": "Poin",
+            "target": "Middleiropa"
+        },
+        {
+            "source": "Colorado County, Texas",
+            "target": "County"
+        },
+        {
+            "source": "County",
+            "target": "Englisch"
+        },
+        {
+            "source": "Englisch",
+            "target": "Westgermanische Sprochn"
+        },
+        {
+            "source": "Westgermanische Sprochn",
+            "target": "Germanische Sprachen"
+        },
+        {
+            "source": "Eisnkappl-Vellach",
+            "target": "Slowenische Sprache"
+        },
+        {
+            "source": "Slowenische Sprache",
+            "target": "Krowodisch"
+        },
+        {
+            "source": "Krowodisch",
+            "target": "Krowodisch (Begriffsklearung)"
+        },
+        {
+            "source": "McDowell County (Begriffsklearung)",
+            "target": "Vereinigte Staaten"
+        },
+        {
+            "source": "Vereinigte Staaten",
+            "target": "Noadamerika"
+        },
+        {
+            "source": "Cristian Panin",
+            "target": "Rum\u00e4nien"
+        },
+        {
+            "source": "Rum\u00e4nien",
+            "target": "Republik"
+        },
+        {
+            "source": "Osric",
+            "target": "Northumbria"
+        },
+        {
+            "source": "Northumbria",
+            "target": "England"
+        },
+        {
+            "source": "England",
+            "target": "Vereinigtes K\u00f6nigreich"
+        },
+        {
+            "source": "Vereinigtes K\u00f6nigreich",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Buagn- und Schlossmuseen- O\u00d6",
+            "target": "Owa\u00f6stareich"
+        },
+        {
+            "source": "Owa\u00f6stareich",
+            "target": "\u00d6stareich"
+        },
+        {
+            "source": "\u00d6stareich",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Stootsfiahra 646",
+            "target": "Amerika"
+        },
+        {
+            "source": "Gasse (Sch\u00f6llkrippen)",
+            "target": "1811"
+        },
+        {
+            "source": "1811",
+            "target": "Joar"
+        },
+        {
+            "source": "R\u00e5de",
+            "target": "Norwegn"
+        },
+        {
+            "source": "Norwegn",
+            "target": "Skandinavien"
+        },
+        {
+            "source": "Skandinavien",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Rotkopf",
+            "target": "Rotkopf (Mangfallgebirge)"
+        },
+        {
+            "source": "Rotkopf (Mangfallgebirge)",
+            "target": "Bayern"
+        },
+        {
+            "source": "Kanton Sabarth\u00e8s",
+            "target": "Frankreich"
+        },
+        {
+            "source": "Clay County, Georgia",
+            "target": "Georgia"
+        },
+        {
+            "source": "Georgia",
+            "target": "Listn vo de Bundesstootn"
+        },
+        {
+            "source": "Listn vo de Bundesstootn",
+            "target": "USA"
+        },
+        {
+            "source": "Castro County, Texas",
+            "target": "County"
+        },
+        {
+            "source": "416 v. Kr.",
+            "target": "Joar"
+        },
+        {
+            "source": "A.E.I.O.U.",
+            "target": "Habsburg"
+        },
+        {
+            "source": "Habsburg",
+            "target": "Schweiz"
+        },
+        {
+            "source": "Schweiz",
+            "target": "Europa"
+        },
+        {
+            "source": "Iran",
+            "target": "Stoot"
+        },
+        {
+            "source": "Adams County, Nebraska",
+            "target": "Nebraska"
+        },
+        {
+            "source": "Nebraska",
+            "target": "Listn vo de Bundesstootn"
+        },
+        {
+            "source": "G\u00fctlershof",
+            "target": "Ortstei"
+        },
+        {
+            "source": "Ortstei",
+            "target": "Kuitua"
+        },
+        {
+            "source": "Kuitua",
+            "target": "Wissn"
+        },
+        {
+            "source": "Wissn",
+            "target": "Vaschwearungstheorie"
+        },
+        {
+            "source": "Vaschwearungstheorie",
+            "target": "Vahoidn"
+        },
+        {
+            "source": "Vahoidn",
+            "target": "Mensch"
+        },
+        {
+            "source": "Mensch",
+            "target": "Spoviech"
+        },
+        {
+            "source": "Spoviech",
+            "target": "Standarddeitsch"
+        },
+        {
+            "source": "Liste der Staatsoberh\u00e4upter 1468",
+            "target": "\u00c4gypten"
+        },
+        {
+            "source": "\u00c4gypten",
+            "target": "Afrika"
+        },
+        {
+            "source": "Noemi",
+            "target": "Italien"
+        },
+        {
+            "source": "Hammerbach (Herzogenaurach)",
+            "target": "Bayern"
+        },
+        {
+            "source": "1998 WW31",
+            "target": "Transneptunisches Objekt"
+        },
+        {
+            "source": "Transneptunisches Objekt",
+            "target": "Neptun (Planet)"
+        },
+        {
+            "source": "Neptun (Planet)",
+            "target": "Sun"
+        },
+        {
+            "source": "Suschi",
+            "target": "Japan"
+        },
+        {
+            "source": "Japan",
+            "target": "Indonesien"
+        },
+        {
+            "source": "Indonesien",
+            "target": "Niederlande"
+        },
+        {
+            "source": "Niederlande",
+            "target": "Nordsee"
+        },
+        {
+            "source": "Nordsee",
+            "target": "Meea"
+        },
+        {
+            "source": "Meea",
+            "target": "Wossa"
+        },
+        {
+            "source": "Wossa",
+            "target": "Periodnsystem"
+        },
+        {
+            "source": "Periodnsystem",
+            "target": "Elektronischs Energiniveau"
+        },
+        {
+            "source": "Elektronischs Energiniveau",
+            "target": "Elektron"
+        },
+        {
+            "source": "Elektron",
+            "target": "Atom"
+        },
+        {
+            "source": "Atom",
+            "target": "Kemie"
+        },
+        {
+            "source": "Kemie",
+            "target": "Wissnschaft"
+        },
+        {
+            "source": "Wissnschaft",
+            "target": "Wissn"
+        },
+        {
+            "source": "U.S. Smokeless Tobacco Company",
+            "target": "Richmond (Virginia)"
+        },
+        {
+            "source": "Richmond (Virginia)",
+            "target": "Virginia"
+        },
+        {
+            "source": "Virginia",
+            "target": "USA"
+        },
+        {
+            "source": "Landgreis Ha\u00dfberge",
+            "target": "Landkroas"
+        },
+        {
+            "source": "Landkroas",
+            "target": "Feiawehr"
+        },
+        {
+            "source": "Feiawehr",
+            "target": "Viech"
+        },
+        {
+            "source": "Viech",
+            "target": "Pflanzna"
+        },
+        {
+            "source": "Pflanzna",
+            "target": "Dom\u00e4ne (Biologie)"
+        },
+        {
+            "source": "Dom\u00e4ne (Biologie)",
+            "target": "Systematik (Biologie)"
+        },
+        {
+            "source": "Systematik (Biologie)",
+            "target": "Biologie"
+        },
+        {
+            "source": "Biologie",
+            "target": "Viecha"
+        },
+        {
+            "source": "Viecha",
+            "target": "Pflanzna"
+        },
+        {
+            "source": "Markus Wasmeier Bauernhof- und Wintersportmuseum",
+            "target": "Oberbayern"
+        },
+        {
+            "source": "Oberbayern",
+            "target": "Bayern"
+        },
+        {
+            "source": "1933",
+            "target": "Joar"
+        },
+        {
+            "source": "ISO 3166-2:SZ",
+            "target": "ISO 3166-2"
+        },
+        {
+            "source": "Gerald Jatzek",
+            "target": "\u00d6stareich"
+        },
+        {
+            "source": "Ghiffa",
+            "target": "Italien"
+        },
+        {
+            "source": "Klassisches Latein",
+            "target": "Latein"
+        },
+        {
+            "source": "Stootsfiahra 589",
+            "target": "Amerika"
+        },
+        {
+            "source": "Herkulestauweak",
+            "target": "Fiisch"
+        },
+        {
+            "source": "Fiisch",
+            "target": "Wossa"
+        },
+        {
+            "source": "Erath County, Texas",
+            "target": "County"
+        },
+        {
+            "source": "Ojibwe",
+            "target": "Indiana"
+        },
+        {
+            "source": "Indiana",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Informationstheorie",
+            "target": "Mathematik"
+        },
+        {
+            "source": "Mathematik",
+            "target": "Wissenschaft"
+        },
+        {
+            "source": "Wissenschaft",
+            "target": "Wissn"
+        },
+        {
+            "source": "Madison County, Illinois",
+            "target": "Illinois"
+        },
+        {
+            "source": "Illinois",
+            "target": "USA"
+        },
+        {
+            "source": "Legio X Gemina",
+            "target": "Legio XV Apollinaris"
+        },
+        {
+            "source": "Legio XV Apollinaris",
+            "target": "Legio I Noricorum"
+        },
+        {
+            "source": "Legio I Noricorum",
+            "target": "Noricum"
+        },
+        {
+            "source": "Noricum",
+            "target": "Kelten"
+        },
+        {
+            "source": "Kelten",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Neubauer Forst-Nord",
+            "target": "Km\u00b2"
+        },
+        {
+            "source": "Km\u00b2",
+            "target": "Fl\u00e4chn"
+        },
+        {
+            "source": "Fl\u00e4chn",
+            "target": "L\u00e4ng"
+        },
+        {
+            "source": "L\u00e4ng",
+            "target": "Liacht"
+        },
+        {
+            "source": "Liacht",
+            "target": "Mensch"
+        },
+        {
+            "source": "Newton County, Texas",
+            "target": "County"
+        },
+        {
+            "source": "Gwiaz",
+            "target": "Soot"
+        },
+        {
+            "source": "Soot",
+            "target": "Pflanzna"
+        },
+        {
+            "source": "Rutherford County, North Carolina",
+            "target": "North Carolina"
+        },
+        {
+            "source": "North Carolina",
+            "target": "Bundesstaat der Vereinigten Staaten"
+        },
+        {
+            "source": "Bundesstaat der Vereinigten Staaten",
+            "target": "USA"
+        },
+        {
+            "source": "491",
+            "target": "Joar"
+        },
+        {
+            "source": "Neust\u00e4dtlein (Dinkelsb\u00fchl)",
+            "target": "Ortstei"
+        },
+        {
+            "source": "Stootsfiahra 56",
+            "target": "Remisches Reich"
+        },
+        {
+            "source": "Remisches Reich",
+            "target": "Lateinische Sprache"
+        },
+        {
+            "source": "Lateinische Sprache",
+            "target": "Sproch"
+        },
+        {
+            "source": "Prahova (Fluss)",
+            "target": "Rum\u00e4nien"
+        },
+        {
+            "source": "Mariastoa",
+            "target": "Bezirk Kufstoa"
+        },
+        {
+            "source": "Bezirk Kufstoa",
+            "target": "\u00d6starreich"
+        },
+        {
+            "source": "\u00d6starreich",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Marktl",
+            "target": "Alt\u00f6tting"
+        },
+        {
+            "source": "Alt\u00f6tting",
+            "target": "Kroasstod"
+        },
+        {
+            "source": "Kroasstod",
+            "target": "Stod"
+        },
+        {
+            "source": "Stod",
+            "target": "Meea"
+        },
+        {
+            "source": "Ris\u00f8yhamn",
+            "target": "Norwegn"
+        },
+        {
+            "source": "Stefan Dettl",
+            "target": "Bayern"
+        },
+        {
+            "source": "Boarische Voiksdanz",
+            "target": "Bairische Sprache"
+        },
+        {
+            "source": "Bairische Sprache",
+            "target": "Deitsche Sproch"
+        },
+        {
+            "source": "Hafenlohr (Fluss)",
+            "target": "Main"
+        },
+        {
+            "source": "Main",
+            "target": "Rhein"
+        },
+        {
+            "source": "Rhein",
+            "target": "Middleiropa"
+        },
+        {
+            "source": "SNP (Begriffsklearung)",
+            "target": "Scottish National Party"
+        },
+        {
+            "source": "Scottish National Party",
+            "target": "Schottland"
+        },
+        {
+            "source": "Schottland",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Woodward County, Oklahoma",
+            "target": "Oklahoma"
+        },
+        {
+            "source": "Oklahoma",
+            "target": "USA"
+        },
+        {
+            "source": "Schwanthalah\u00e4h",
+            "target": "Minga"
+        },
+        {
+            "source": "Smith County, Tennessee",
+            "target": "Tennessee"
+        },
+        {
+            "source": "Tennessee",
+            "target": "Listn vo de Bundesstootn"
+        },
+        {
+            "source": "Moashofn",
+            "target": "Gemeinde"
+        },
+        {
+            "source": "Gemeinde",
+            "target": "Stoot"
+        },
+        {
+            "source": "Schlernhexn",
+            "target": "Schlern"
+        },
+        {
+            "source": "Schlern",
+            "target": "Bozn"
+        },
+        {
+            "source": "Bozn",
+            "target": "Sidtiroul"
+        },
+        {
+            "source": "Sidtiroul",
+            "target": "Treant (Provinz)"
+        },
+        {
+            "source": "Treant (Provinz)",
+            "target": "Italien"
+        },
+        {
+            "source": "2. Buach der Makkab\u00e4a",
+            "target": "Oids Testament"
+        },
+        {
+            "source": "Oids Testament",
+            "target": "Judndum"
+        },
+        {
+            "source": "Judndum",
+            "target": "Kuitua"
+        },
+        {
+            "source": "Brown County, Wisconsin",
+            "target": "Wisconsin"
+        },
+        {
+            "source": "Wisconsin",
+            "target": "Listn vo de Bundesstootn"
+        },
+        {
+            "source": "716",
+            "target": "Joar"
+        },
+        {
+            "source": "Keilberg (Bessenbach)",
+            "target": "Ortstei"
+        },
+        {
+            "source": "Stootsfiahra 333",
+            "target": "Amerika"
+        },
+        {
+            "source": "Clayton County",
+            "target": "Vereinigte Staaten"
+        },
+        {
+            "source": "M\u00e5l\u00f8y",
+            "target": "Fylke"
+        },
+        {
+            "source": "Fylke",
+            "target": "Norwegn"
+        },
+        {
+            "source": "Armstrong County, Pennsylvania",
+            "target": "Pennsylvania"
+        },
+        {
+            "source": "Pennsylvania",
+            "target": "Bundesstoot"
+        },
+        {
+            "source": "Chiny",
+            "target": "Bejgien"
+        },
+        {
+            "source": "Bejgien",
+            "target": "Eiropa"
+        },
+        {
+            "source": "Sanskrit",
+            "target": "Hinduismus"
+        },
+        {
+            "source": "Hinduismus",
+            "target": "Religion"
+        },
+        {
+            "source": "Religion",
+            "target": "Kristndum"
+        },
+        {
+            "source": "Neukolbing",
+            "target": "Ortstei"
+        },
+        {
+            "source": "Sch\u00f6nau (Inchenhofen)",
+            "target": "Ortstei"
+        },
+        {
+            "source": "Hoachapei\u00dfaberg",
+            "target": "Gmoa"
+        },
+        {
+            "source": "Gmoa",
+            "target": "Stoot"
+        },
+        {
+            "source": "Pappenham",
+            "target": "Middlfrankn"
+        },
+        {
+            "source": "Middlfrankn",
+            "target": "Regiarungsbeziak"
+        },
+        {
+            "source": "Regiarungsbeziak",
+            "target": "Bayern"
+        },
+        {
+            "source": "Covington County, Mississippi",
+            "target": "Mississippi (Bundesstoot)"
+        },
+        {
+            "source": "Mississippi (Bundesstoot)",
+            "target": "Listn vo de Bundesstootn"
+        },
+        {
+            "source": "Gepe",
+            "target": "Hittn"
+        },
+        {
+            "source": "Hittn",
+            "target": "Boarisch"
+        },
+        {
+            "source": "939",
+            "target": "Joar"
+        },
+        {
+            "source": "Johnson County, Wyoming",
+            "target": "Wyoming"
+        },
+        {
+            "source": "Wyoming",
+            "target": "Vaeinigte Stootn"
+        },
+        {
+            "source": "Vaeinigte Stootn",
+            "target": "Noadamerika"
+        },
+        {
+            "source": "Brunnflo\u00dfgraben",
+            "target": "Elsava"
+        },
+        {
+            "source": "Elsava",
+            "target": "Main"
+        }
+    ]
+}
